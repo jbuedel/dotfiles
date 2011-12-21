@@ -2,6 +2,8 @@ import-module posh-josh
 import-module posh-git
 import-module powertab -ArgumentList "C:\Users\jbuedel\Documents\WindowsPowerShell\PowerTabConfig.xml"
 import-module psget
+import-module psurl
+import-module pswatch
 
 set-alias favorite-text-editor "c:\program files (x86)\notepad++\notepad++.exe"
 set-alias npp favorite-text-editor
