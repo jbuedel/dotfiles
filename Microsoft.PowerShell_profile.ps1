@@ -1,3 +1,10 @@
+Import-Module psget
+Import-Module pswatch
+Import-Module psurl
+Import-Module posh-josh
+Import-Module posh-hg
+Import-Module posh-git
+
 Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 Set-Alias -name npp open-text
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
@@ -11,16 +18,6 @@ Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
  
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
-
-
-# POSH-JOSH Extension
-Import-Module posh-josh
-
-# POSH-HG Extension.
-Import-Module posh-hg
-
-# Add POSH-GIT Extension
-Import-Module posh-git
 
 # Add ssh-agent utils.
 #. (Resolve-Path ~/Documents/WindowsPowershell/ssh-agent-utils.ps1)
