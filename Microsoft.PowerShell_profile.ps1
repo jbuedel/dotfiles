@@ -37,8 +37,8 @@ function prompt {
 		$Global:GitStatus = Get-GitStatus
 		Write-GitStatus $Global:GitStatus
 	#}
-	# Need to be checking these for null.  The path also needs trimming down to just the project dir name (Mercury, etc.).
-	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + (Get-LocalOrParentPath .git)
+
+	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
 	
 	# My own Git Prompt.
 	#$branchname = git branch | where { $_.StartsWith('*') } | %{ $_.Trim('*') }
