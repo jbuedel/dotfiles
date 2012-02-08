@@ -19,9 +19,6 @@ Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
  
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
-# Add ssh-agent utils.
-#. (Resolve-Path ~/Documents/WindowsPowershell/ssh-agent-utils.ps1)
-
 # Set up a simple prompt, adding the git prompt parts inside git repos
 function prompt {
     $realLASTEXITCODE = $LASTEXITCODE
@@ -31,51 +28,16 @@ function prompt {
 
 	# TODO: Convert this to put ~/ instead of the full path when I'm in my home folder.
     Write-Host($pwd) -nonewline
-        
-	#if($pwd -notmatch "Fpweb.net") { # git status is REALLY slow in this folder
-		# Git Prompt
-		$Global:GitStatus = Get-GitStatus
-		Write-GitStatus $Global:GitStatus
-	#}
-
+    
+	Write-VcsStatus    
+	
 	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
 	
-	# My own Git Prompt.
-	#$branchname = git branch | where { $_.StartsWith('*') } | %{ $_.Trim('*') }
-	#Write-Host($branchname) -nonewline -ForegroundColor Red
-
 	# Doesn't work.  And puts a spurious 'PS' in the prompt.
 	#SetTitleToProjectAndBranch($branchname)
 	
-    # Mercurial Prompt
-    $Global:HgStatus = Get-HgStatus
-    Write-HgStatus $HgStatus
-
-	
     $LASTEXITCODE = $realLASTEXITCODE
     return "> "
-}
-
-$teBackup = 'posh-git_DefaultTabExpansion'
-if(!(Test-Path Function:\$teBackup)) {
-    Rename-Item Function:\TabExpansion $teBackup
-}
-
-# Set up tab expansion and include git expansion
-function TabExpansion($line, $lastWord) {
-    $lastBlock = [regex]::Split($line, '[|;]')[-1].TrimStart()
-    switch -regex ($lastBlock) {
-        # GIT: Execute git tab completion for all git-related commands
-        "$(Get-GitAliasPattern) (.*)" { GitTabExpansion $lastBlock }
-
-        # mercurial and tortoisehg tab expansion
-        '(hg|thg) (.*)' { HgTabExpansion($lastBlock) }
-
-		# TODO: add other expansions here...
-		
-        # DEFAULT: Fall back on existing tab expansion
-        default { & $teBackup $line $lastWord }
-    }
 }
 
 function SetTitleToProjectAndBranch($branch) {
@@ -102,7 +64,7 @@ function Get-LocalOrParentPath($path) {
 }
 
 Enable-GitColors
-
+Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
 
 Pop-Location
