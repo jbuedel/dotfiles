@@ -1,3 +1,4 @@
+import-module project-commands
 import-module posh-josh
 import-module posh-git
 import-module powertab -ArgumentList "C:\Users\jbuedel\Documents\WindowsPowerShell\PowerTabConfig.xml"
