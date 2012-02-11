@@ -1,17 +1,20 @@
-Import-Module psget
-Import-Module pswatch
-Import-Module psurl
 Import-Module posh-josh
-Import-Module posh-hg
 Import-Module posh-git
 
-Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
-Set-Alias -name npp open-text
-Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
+Import-Module psget
+Import-Module psurl
+Import-Module pswatch
+Import-Module posh-hg
+
+
 Set-Alias -name favorite-text-editor notepad++
-Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
+Set-Alias -name npp open-text
+Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 Set-Alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
 Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
+
+Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
+Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
 Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 3.2.4\bin\rubymine.exe"
 Set-Alias rcsi "C:\Program Files (x86)\Microsoft Codename Roslyn CTP\Binaries\rcsi.exe"
 Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
