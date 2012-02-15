@@ -30,8 +30,7 @@ function prompt {
     # Reset color, which can be messed up by Enable-GitColors
     $Host.UI.RawUI.ForegroundColor = $GitPromptSettings.DefaultForegroundColor
 
-	# TODO: Convert this to put ~/ instead of the full path when I'm in my home folder.
-    Write-Host($pwd) -nonewline
+    Write-Host (foo) -nonewline
     
 	# This method comes from posh-git and/or posh-hg.
 	Write-VcsStatus    
@@ -54,3 +53,13 @@ cd ~\Projects
 
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', or 'vs2010' command to do this."
+
+
+function foo {
+	if($pwd.Path.StartsWith($home)) {
+		return '~' + $pwd.Path.Substring($home.Length)
+	}
+	else {
+		return $pwd
+	}
+}
