@@ -36,34 +36,8 @@ function prompt {
 	
 	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
 	
-	# Doesn't work.  And puts a spurious 'PS' in the prompt.
-	#SetTitleToProjectAndBranch($branchname)
-	
     $LASTEXITCODE = $realLASTEXITCODE
     return "> "
-}
-
-function SetTitleToProjectAndBranch($branch) {
-	write-host "getting project folder.  branch is $branch"
-	$projectFolder = Get-LocalOrParentPath .git
-	write-host "project folder is $projectFolder"
-	if ($projectFolder -ne $null) {
-		$HOST.UI.RawUI.WindowTitle = $projectFolder + " " + $branch
-	}
-}
-
-# Copied from posh-git
-function Get-LocalOrParentPath($path) {
-    $checkIn = Get-Item .
-    while ($checkIn -ne $NULL) {
-        $pathToTest = [System.IO.Path]::Combine($checkIn.fullname, $path)
-        if (Test-Path $pathToTest) {
-            return $pathToTest
-        } else {
-            $checkIn = $checkIn.parent
-        }
-    }
-    return $null
 }
 
 Enable-GitColors
