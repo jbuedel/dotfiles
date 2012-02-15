@@ -1,5 +1,6 @@
 Import-Module posh-josh
 Import-Module posh-git
+Import-Module project-commands
 
 Import-Module psget
 Import-Module psurl
@@ -37,7 +38,7 @@ function prompt {
 	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
 	
     $LASTEXITCODE = $realLASTEXITCODE
-    return "> "
+    return ">"
 }
 
 Enable-GitColors
@@ -45,6 +46,22 @@ Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
 
 Pop-Location
+
+# Copied from posh-git
+# TODO: Move this to posh-josh.
+function Get-LocalOrParentPath($path) {
+   $checkIn = Get-Item .
+   while ($checkIn -ne $NULL) {
+       $pathToTest = [System.IO.Path]::Combine($checkIn.fullname, $path)
+       if (Test-Path $pathToTest) {
+           return $pathToTest
+       } else {
+           $checkIn = $checkIn.parent
+       }
+   }
+   return $null
+}
+
 
 # put me in my current project directory
 cd ~\Projects
