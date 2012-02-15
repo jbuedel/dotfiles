@@ -33,8 +33,10 @@ function prompt {
 	# TODO: Convert this to put ~/ instead of the full path when I'm in my home folder.
     Write-Host($pwd) -nonewline
     
+	# This method comes from posh-git and/or posh-hg.
 	Write-VcsStatus    
 	
+	# This line depends on posh-git and posh-josh.
 	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
 	
     $LASTEXITCODE = $realLASTEXITCODE
@@ -46,22 +48,6 @@ Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
 
 Pop-Location
-
-# Copied from posh-git
-# TODO: Move this to posh-josh.
-function Get-LocalOrParentPath($path) {
-   $checkIn = Get-Item .
-   while ($checkIn -ne $NULL) {
-       $pathToTest = [System.IO.Path]::Combine($checkIn.fullname, $path)
-       if (Test-Path $pathToTest) {
-           return $pathToTest
-       } else {
-           $checkIn = $checkIn.parent
-       }
-   }
-   return $null
-}
-
 
 # put me in my current project directory
 cd ~\Projects
