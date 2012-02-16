@@ -13,6 +13,8 @@ Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 set-alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
 set-alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 
+Set-Alias -name git "c:\Program Files (x86)\Git\bin\git.exe"
+
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
