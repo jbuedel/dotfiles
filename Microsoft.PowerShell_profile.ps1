@@ -16,7 +16,7 @@ Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
-Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 3.2.4\bin\rubymine.exe"
+Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.exe"
 Set-Alias rcsi "C:\Program Files (x86)\Microsoft Codename Roslyn CTP\Binaries\rcsi.exe"
 Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
