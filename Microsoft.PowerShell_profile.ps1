@@ -8,7 +8,6 @@ set-alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 import-module posh-josh
 import-module posh-git
 import-module project-commands
-import-module powertab -ArgumentList "C:\Users\jbuedel\Documents\WindowsPowerShell\PowerTabConfig.xml"
 import-module psget
 import-module psurl
 import-module pswatch
