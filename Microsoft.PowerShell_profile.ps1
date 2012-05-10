@@ -5,7 +5,7 @@ Import-Module project-commands
 Import-Module psget
 Import-Module psurl
 Import-Module pswatch
-Import-Module posh-hg
+#Import-Module posh-hg
 
 
 Set-Alias -name favorite-text-editor notepad++
