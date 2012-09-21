@@ -58,3 +58,5 @@ function foo {
 }
 
 
+
+Import-Module PowerShellServer
