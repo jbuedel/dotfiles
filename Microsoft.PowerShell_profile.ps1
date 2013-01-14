@@ -22,7 +22,7 @@ Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.e
 Set-Alias rcsi "C:\Program Files (x86)\Microsoft Codename Roslyn CTP\Binaries\rcsi.exe"
 Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
-Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.0.3\bin\rubymine.exe' 
+Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.5.4\bin\rubymine.exe'
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
