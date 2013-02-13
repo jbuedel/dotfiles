@@ -7,6 +7,7 @@ Import-Module project-commands
 Import-Module psget
 Import-Module psurl
 Import-Module pswatch
+
 #Import-Module posh-hg
 
 
@@ -26,6 +27,8 @@ Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
 Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.5.4\bin\rubymine.exe'
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
+
+. ".\Start-RDP.ps1"
 
 # Set up a simple prompt, adding the git prompt parts inside git repos
 function prompt {
@@ -52,6 +55,7 @@ $global:GitTabSettings.AllCommands = $false
 
 Pop-Location
 
+
 # put me in my current project directory
 cd ~\Projects
 
@@ -66,6 +70,20 @@ function foo {
 	else {
 		return $pwd
 	}
+}
+
+
+<#
+    .SYNOPSIS 
+     Launches an rdp connection to one of my preferred list of servers.
+     Use tab completion to fill in the server name from a hard coded list.
+    .EXAMPLE
+     rdp www.fpweb.net 
+     Launches an rdp session to www.fpweb.net.
+#>
+function rdp {
+    param([ValidateSet('www.fpweb.net','dev.fpweb.net','ampdev.net')][string]$server)
+    Start-RDP -Server $server -Fullscreen
 }
 
 function Set-FileTime{
