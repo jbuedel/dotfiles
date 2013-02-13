@@ -15,6 +15,7 @@ Set-Alias -name npp open-text
 Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 Set-Alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
 Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
+Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
