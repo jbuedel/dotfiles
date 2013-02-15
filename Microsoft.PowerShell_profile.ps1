@@ -82,8 +82,14 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet('www.fpweb.net','dev.fpweb.net','ampdev.net')][string]$server)
-    Start-RDP -Server $server -Fullscreen
+    param([ValidateSet("www.fpweb.net","dev.fpweb.net","ampdev.net","www1","www2")][string]$server)
+
+    $the_server = $server # $server can only be one of set values.
+
+    if($server -eq "www1") { $the_server = "172.29.10.26" }
+    if($server -eq "www2") { $the_server = "172.29.10.27" }
+
+    Start-RDP -Server $the_server -Fullscreen
 }
 
 function Set-FileTime{
