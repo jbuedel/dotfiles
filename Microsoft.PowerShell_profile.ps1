@@ -4,6 +4,7 @@ Set-Alias -name npp open-text
 Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 set-alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
 set-alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
+set-alias gitex  'C:\Program Files (x86)\GitExtensions\GitExtensions.exe'
 
 import-module posh-josh
 import-module posh-git
