@@ -86,8 +86,9 @@ function rdp {
 
     $the_server = $server # $server can only be one of set values.
 
-    if($server -eq "www1") { $the_server = "172.29.10.26" }
-    if($server -eq "www2") { $the_server = "172.29.10.27" }
+    # Note that these are the backup ips.  Not the private ips (which is how the build agent talks to them).
+    if($server -eq "www1") { $the_server = "172.27.0.53" }
+    if($server -eq "www2") { $the_server = "172.27.0.67" }
 
     Start-RDP -Server $the_server -Fullscreen
 }
