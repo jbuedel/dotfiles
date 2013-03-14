@@ -60,7 +60,7 @@ Pop-Location
 cd ~\Projects
 
 "Your custom settings are almost complete, my overlord."
-"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', or 'vs2010' command to do this."
+"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
 
 
 function foo {
@@ -82,7 +82,7 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("www.fpweb.net","dev.fpweb.net","ampdev.net","www1","www2")][string]$server)
+    param([ValidateSet("www.fpweb.net","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
