@@ -1,9 +1,9 @@
-[submodule ".\\Modules\\project-commands"]
-	path = .\\Modules\\project-commands
-	url = git@github.com:jbuedel/project-commands.git
-[submodule ".\\Modules\\posh-git"]
-	path = .\\Modules\\posh-git
-	url = git@github.com:jbuedel/posh-git.git
-[submodule ".\\Modules\\posh-josh"]
-	path = .\\Modules\\posh-josh
+[submodule "Modules/posh-josh"]
+	path = Modules/posh-josh
 	url = git@github.com:jbuedel/posh-josh.git
+[submodule "Modules/project-commands"]
+	path = Modules/project-commands
+	url = git@github.com:jbuedel/project-commands
+[submodule "Modules/posh-git"]
+	path = Modules/posh-git
+	url = git@github.com:jbuedel/posh-git
