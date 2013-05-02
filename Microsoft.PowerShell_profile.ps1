@@ -77,6 +77,9 @@ function foo {
     .SYNOPSIS 
      Launches an rdp connection to one of my preferred list of servers.
      Use tab completion to fill in the server name from a hard coded list.
+     Opens the session in FullScreen mode.
+
+     Use the Start-RDP command to go to any server.
     .EXAMPLE
      rdp www.fpweb.net 
      Launches an rdp session to www.fpweb.net.
@@ -91,6 +94,13 @@ function rdp {
     if($server -eq "www2") { $the_server = "172.27.0.67" }
 
     Start-RDP -Server $the_server -Fullscreen
+}
+
+function ssh-to-known-host {
+    param([ValidateSet("blog.fpweb.net")][string]$myHost)
+
+    if($myHost -eq "blog.fpweb.net") { ssh -l root blog.fpweb.net }
+    else { write-Host "'$myHost' is not in the list of my known hosts.  Add it to the ssh-to validateset parameter list."}
 }
 
 function Set-FileTime{
