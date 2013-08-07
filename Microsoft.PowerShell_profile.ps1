@@ -52,6 +52,7 @@ function prompt {
 Enable-GitColors
 Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
+if((git config --global core.preloadindex) -ne 'true') { git config --global core.preloadindex true }
 
 Pop-Location
 
