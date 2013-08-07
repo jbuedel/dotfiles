@@ -1,7 +1,8 @@
+set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
 set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 
-Import-Module posh-josh
 Import-Module posh-git
+Import-Module posh-josh
 Import-Module project-commands
 
 Import-Module psget
