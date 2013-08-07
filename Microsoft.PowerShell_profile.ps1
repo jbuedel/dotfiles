@@ -21,7 +21,9 @@ set-alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-set-alias gitex  'C:\Program Files (x86)\GitExtensions\GitExtensions.exe'
+Set-Alias gitex  'C:\Program Files (x86)\GitExtensions\GitExtensions.exe'
+Set-Alias appcmd "$env:systemroot\system32\inetsrv\appcmd.exe"
+
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
 . ".\Start-RDP.ps1"
