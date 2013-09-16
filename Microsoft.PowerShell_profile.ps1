@@ -66,8 +66,8 @@ cd ~\Projects
 
 
 function foo {
-	if($pwd.Path.StartsWith($home)) {
-		return '~' + $pwd.Path.Substring($home.Length)
+	if($pwd.ProviderPath.StartsWith($home)) {
+		return '~' + $pwd.ProviderPath.Substring($home.Length)
 	}
 	else {
 		return $pwd
@@ -87,13 +87,14 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("www.fpweb.net","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net")][string]$server)
+    param([ValidateSet("old_www_box","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
     # Note that these are the backup ips.  Not the private ips (which is how the build agent talks to them).
     if($server -eq "www1") { $the_server = "172.27.0.53" }
     if($server -eq "www2") { $the_server = "172.27.0.67" }
+	if($server -eq "old_www_box") { $the_server = "204.144.122.42" }
 
     Start-RDP -Server $the_server -Fullscreen
 }
