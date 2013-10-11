@@ -52,7 +52,7 @@ Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects
+cd D:\Projects
 
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
