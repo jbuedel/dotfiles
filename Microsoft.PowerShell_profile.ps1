@@ -1,5 +1,5 @@
 set-alias git 'D:\Program Files (x86)\Git\bin\git.exe'
-set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+set-alias bc  'D:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 
 Import-Module posh-git
 Import-Module posh-josh
@@ -11,13 +11,11 @@ Import-Module pswatch
 
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
-Set-Alias -name bc 'D:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 Set-Alias ssh-agent 'D:\Program Files (x86)\Git\bin\ssh-agent.exe'
 Set-Alias ssh-add 'D:\Program Files (x86)\Git\bin\ssh-add.exe'
 Set-Alias ssh 'D\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-Set-Alias rcsi "C:\Program Files (x86)\Microsoft Codename Roslyn CTP\Binaries\rcsi.exe"
 Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
