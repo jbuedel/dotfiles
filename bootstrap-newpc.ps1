@@ -9,6 +9,7 @@ cinst beyondcompare
 cinst notepadplusplus
 cinst windirstat
 cinst itunes
+cinst conemu
 
 # Doesn't exist.
 #cinst webmatrix
