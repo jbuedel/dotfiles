@@ -10,6 +10,7 @@ cinst notepadplusplus
 cinst windirstat
 cinst itunes
 cinst conemu
+cinst ungit
 
 # Doesn't exist.
 #cinst webmatrix
