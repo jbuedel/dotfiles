@@ -17,4 +17,4 @@
 
 cinst msysgit
 git clone git@github.com:jbuedel/dotfiles.git .
-git checkout work-pc
+git checkout work-desktop
