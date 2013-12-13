@@ -14,6 +14,10 @@
 
 
 cinst msysgit
+git config --global user.name "Josh Buedel"
+git config --global user.email "jbuedel@gmail.com"
+
+
 git clone git@github.com:jbuedel/dotfiles.git .
 git checkout work-desktop
 # Actually fills out the submodules (does not happened automatically for some reason)
