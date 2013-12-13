@@ -1,17 +1,13 @@
 # Intended to install as much of my powershell customizations as possible on a new machine.
 
 # Create ~\Documents\WindowsPowerShell
- if(!(test-path $profile\..)) {mkdir $profile\.. }
- cd $profile\..
+if(!(test-path $profile\..)) {mkdir $profile\.. }
+cd $profile\..
 
-# Install psget - the NuGet of Powershell
-#(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
-
-# Use psget to install other modules.
-#install-module psurl
-#install-module pswatch
-#install-module posh-hg
-
+#install chocolately
+if(-not (get-command chocolatey)) {
+  iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+}
 
 cinst msysgit
 git config --global user.name "Josh Buedel"
