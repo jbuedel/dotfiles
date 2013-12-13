@@ -15,6 +15,9 @@ cinst EthanBrown.ConEmuConfig
 cinst hipchat
 
 
+cinst VisualStudioExpress2012Web
+cinst resharper
+cinst dotcover
 
 # Doesn't exist.
 #cinst webmatrix
