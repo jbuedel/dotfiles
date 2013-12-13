@@ -12,6 +12,8 @@ cinst windirstat
 cinst itunes
 cinst conemu
 cinst EthanBrown.ConEmuConfig
+cinst hipchat
+
 
 
 # Doesn't exist.
