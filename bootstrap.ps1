@@ -12,9 +12,9 @@
 #install-module pswatch
 #install-module posh-hg
 
-# Actually fills out the submodules (does not happened automatically for some reason)
-#git submodule update --init
 
 cinst msysgit
 git clone git@github.com:jbuedel/dotfiles.git .
 git checkout work-desktop
+# Actually fills out the submodules (does not happened automatically for some reason)
+git submodule update --init
