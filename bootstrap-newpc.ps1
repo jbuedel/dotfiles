@@ -13,7 +13,9 @@ cinst itunes
 cinst conemu
 cinst EthanBrown.ConEmuConfig
 cinst hipchat
+cinst linqpad4
 
+cinst paint.net
 
 cinst VisualStudioExpress2012Web
 cinst resharper
