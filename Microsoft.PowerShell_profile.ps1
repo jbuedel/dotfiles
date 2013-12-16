@@ -22,7 +22,7 @@ Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.5.4\bin\rubymine
 
 # Add stuff to path (what's better, adding to path or creating an alias?)
 # vim & gvim
-$env:Path += "${env:ProgramFiles(x86)}\vim\bin"
+$env:Path += ";${env:ProgramFiles(x86)}\vim\bin;"
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
