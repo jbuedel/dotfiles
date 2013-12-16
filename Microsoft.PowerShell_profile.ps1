@@ -20,6 +20,10 @@ Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
 Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.5.4\bin\rubymine.exe'
 
+# Add stuff to path (what's better, adding to path or creating an alias?)
+# vim & gvim
+$env:Path += "${env:ProgramFiles(x86)}\vim\bin"
+
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
 . ".\Start-RDP.ps1"
