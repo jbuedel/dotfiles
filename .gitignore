@@ -1,2 +1,6 @@
 *.xml
 Modules/
+
+# Ignore some vim files.
+*~
+*.swp

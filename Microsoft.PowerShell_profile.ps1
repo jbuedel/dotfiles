@@ -5,16 +5,9 @@ Import-Module posh-git
 Import-Module posh-josh
 Import-Module project-commands
 
-Import-Module psget
-Import-Module psurl
-Import-Module pswatch
-
-#Import-Module posh-hg
-
-
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
-Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+
 Set-Alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
 Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
@@ -22,10 +15,15 @@ Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
 Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.exe"
-Set-Alias rcsi "C:\Program Files (x86)\Microsoft Codename Roslyn CTP\Binaries\rcsi.exe"
-Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
-Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.5.4\bin\rubymine.exe'
+
+Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
+
+
+
+# Add stuff to path (what's better, adding to path or creating an alias?)
+# vim & gvim
+$env:Path += ";${env:ProgramFiles(x86)}\vim\bin;"
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 

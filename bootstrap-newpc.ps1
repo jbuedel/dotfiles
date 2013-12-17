@@ -3,14 +3,24 @@
 # Install chocolatey.
 (new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1') | iex
 
+cinst vim
 cinst googlechrome
-cinst git
+cinst msysgit # duplicated from bootstrap-powershell.ps1 but whatever
 cinst beyondcompare
 cinst notepadplusplus
 cinst windirstat
 cinst itunes
 cinst conemu
+cinst EthanBrown.ConEmuConfig
+cinst hipchat
 cinst ungit
+cinst linqpad4
+
+cinst paint.net
+
+cinst VisualStudioExpress2012Web
+cinst resharper
+cinst dotcover
 
 # Doesn't exist.
 #cinst webmatrix
