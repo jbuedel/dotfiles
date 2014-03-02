@@ -18,7 +18,6 @@ cinst linqpad4
 
 cinst paint.net
 
-cinst VisualStudioExpress2012Web
 cinst resharper
 cinst dotcover
 
