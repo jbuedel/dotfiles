@@ -21,6 +21,8 @@ cinst paint.net
 cinst resharper
 cinst dotcover
 
+cinst autohotkey
+
 # Doesn't exist.
 #cinst webmatrix
 
