@@ -1,7 +1,7 @@
 # Intended to install as much of my powershell customizations as possible on a new machine.
 # Including this repo itself!
 # Run this via:
-#   (new-object net.webclient).DownloadString("https://github.com/jbuedel/dotfiles/blob/work-desktop/bootstrap-powershell.ps1") | iex
+#   (new-object net.webclient).DownloadString("https://raw.github.com/jbuedel/dotfiles/work-desktop/bootstrap-powershell.ps1") | iex
 
 # Create ~\Documents\WindowsPowerShell
 if(!(test-path $profile\..)) {mkdir $profile\.. }
