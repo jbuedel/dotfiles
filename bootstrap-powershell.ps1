@@ -17,6 +17,20 @@ git config --global user.name "Josh Buedel"
 git config --global user.email "jbuedel@gmail.com"
 
 
+if(!(test-path ~\.ssh\id_rsa)){
+	write-host "ssh key file not found.  creating one."
+	$keyfile = (Convert-Path ~\.ssh\) + "id_rsa"
+	
+	& 'C:\Program Files (x86)\Git\bin\ssh-keygen.exe' -t rsa -C "jbuedel@gmail.com" -f $keyfile
+	& 'C:\Program Files (x86)\Git\bin\ssh-add.exe' $keyfile
+	
+	write-host "Put this key file on Github. It's on the clipboard."
+	cat ~\.ssh\id_rsa.pub | clip
+	start "https://github.com/settings/ssh"	
+	return
+}
+
+
 git clone git@github.com:jbuedel/dotfiles.git .
 git checkout work-desktop
 # Actually fills out the submodules (does not happened automatically for some reason)
