@@ -15,7 +15,7 @@ cinst EthanBrown.ConEmuConfig
 cinst hipchat
 cinst ungit
 cinst linqpad4
-
+cinst sysinternals
 cinst paint.net
 
 cinst VisualStudioExpress2012Web
