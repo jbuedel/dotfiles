@@ -18,9 +18,10 @@ cinst linqpad4
 cinst sysinternals
 cinst paint.net
 
-cinst VisualStudioExpress2012Web
 cinst resharper
 cinst dotcover
+
+cinst autohotkey
 
 # Doesn't exist.
 #cinst webmatrix
