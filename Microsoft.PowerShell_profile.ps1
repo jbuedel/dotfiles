@@ -85,14 +85,14 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("old_www_box","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper")][string]$server)
+    param([ValidateSet("buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
     # Note that these are the backup ips.  Not the private ips (which is how the build agent talks to them).
     if($server -eq "www1") { $the_server = "172.27.0.53" }
     if($server -eq "www2") { $the_server = "172.27.0.67" }
-	if($server -eq "old_www_box") { $the_server = "204.144.122.42" }
+	if($server -eq "buildagent1") { $the_server = "204.144.122.42" }
     if($server -eq "orchestrator") { $the_server = "172.27.10.30" }
     if($server -eq "vmm") { $the_server = "172.27.10.10" }
     if($server -eq "lansweeper") { $the_server = "172.27.10.12" }
