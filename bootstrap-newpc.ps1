@@ -16,6 +16,7 @@ cinst hipchat
 cinst ungit
 cinst linqpad4
 cinst sysinternals
+cinst dropbox
 cinst paint.net
 
 cinst resharper
