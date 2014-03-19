@@ -19,6 +19,7 @@ cinst sysinternals
 cinst dropbox
 cinst paint.net
 
+cinst dotpeek
 cinst resharper
 cinst dotcover
 
