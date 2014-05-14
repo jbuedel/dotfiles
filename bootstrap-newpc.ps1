@@ -22,6 +22,7 @@ cinst paint.net
 cinst dotpeek
 cinst resharper
 cinst dotcover
+cinst dotpeek
 
 cinst autohotkey
 
