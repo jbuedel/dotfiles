@@ -101,9 +101,9 @@ function rdp {
 }
 
 function ssh-to-known-host {
-    param([ValidateSet("blog.fpweb.net")][string]$myHost)
+    param([ValidateSet("fpwebnet@blog.fpweb.net")][string]$myHost)
 
-    if($myHost -eq "blog.fpweb.net") { ssh -l root blog.fpweb.net }
+    if($myHost -eq "fpwebnet@blog.fpweb.net") { ssh fpwebnet@blog.fpweb.net }
     else { write-Host "'$myHost' is not in the list of my known hosts.  Add it to the ssh-to validateset parameter list."}
 }
 
