@@ -5,6 +5,7 @@
 
 cinst vim
 cinst googlechrome
+cinst firefox
 cinst msysgit # duplicated from bootstrap-powershell.ps1 but whatever
 cinst beyondcompare
 cinst notepadplusplus
