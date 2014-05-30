@@ -38,3 +38,6 @@ git submodule update --init
 
 # Install PsWatch
 iex ((new-object net.webclient).DownloadString("http://bit.ly/Install-PsWatch"))
+
+(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
+install-module PSReadline
