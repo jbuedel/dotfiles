@@ -4,6 +4,7 @@ set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 Import-Module posh-git
 Import-Module posh-josh
 Import-Module project-commands
+Import-Module psreadline
 
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
