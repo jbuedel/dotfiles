@@ -1,18 +1,15 @@
+set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
+set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 
-Set-Alias -name bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
-
-
+Import-Module posh-git
 import-module posh-josh
-import-module posh-git
 import-module project-commands
 
 import-module psget
 import-module psurl
 import-module pswatch
+Import-Module psreadline
 
-#Import-Module posh-hg
-
-Set-Alias -name git "c:\Program Files (x86)\Git\bin\git.exe"
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
 
@@ -21,7 +18,8 @@ set-alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-Set-Alias gitex  'C:\Program Files (x86)\GitExtensions\GitExtensions.exe'
+Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
+Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 Set-Alias appcmd "$env:systemroot\system32\inetsrv\appcmd.exe"
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
@@ -57,12 +55,12 @@ Pop-Location
 cd ~\Projects
 
 "Your custom settings are almost complete, my overlord."
-"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', or 'vs2010' command to do this."
+"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
 
 
 function foo {
-	if($pwd.Path.StartsWith($home)) {
-		return '~' + $pwd.Path.Substring($home.Length)
+	if($pwd.ProviderPath.StartsWith($home)) {
+		return '~' + $pwd.ProviderPath.Substring($home.Length)
         }
 	else {
 		return $pwd
@@ -74,15 +72,35 @@ function foo {
     .SYNOPSIS 
      Launches an rdp connection to one of my preferred list of servers.
      Use tab completion to fill in the server name from a hard coded list.
+     Opens the session in FullScreen mode.
+
+     Use the Start-RDP command to go to any server.
     .EXAMPLE
      rdp www.fpweb.net 
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet('www.fpweb.net','dev.fpweb.net','ampdev.net')][string]$server)
-    Start-RDP -Server $server -Fullscreen
+    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper")][string]$server)
+
+    $the_server = $server # $server can only be one of set values.
+
+    # Note that these are the backup ips.  Not the private ips (which is how the build agent talks to them).
+    if($server -eq "www1") { $the_server = "172.27.0.53" }
+    if($server -eq "www2") { $the_server = "172.27.0.67" }
+	if($server -eq "buildagent1") { $the_server = "204.144.122.42" }
+    if($server -eq "orchestrator") { $the_server = "172.27.10.30" }
+    if($server -eq "vmm") { $the_server = "172.27.10.10" }
+    if($server -eq "lansweeper") { $the_server = "172.27.10.12" }
+
+    Start-RDP -Server $the_server -Fullscreen
 }
 
+function ssh-to-known-host {
+    param([ValidateSet("fpwebnet@blog.fpweb.net")][string]$myHost)
+
+    if($myHost -eq "fpwebnet@blog.fpweb.net") { ssh fpwebnet@blog.fpweb.net }
+    else { write-Host "'$myHost' is not in the list of my known hosts.  Add it to the ssh-to validateset parameter list."}
+}
 function Set-FileTime{
   param(
     [string[]]$paths,
