@@ -1,5 +1,5 @@
-set-alias git 'D:\Program Files (x86)\Git\bin\git.exe'
-set-alias bc  'D:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
+set-alias bc  'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
 
 Import-Module posh-git
 Import-Module posh-josh
@@ -7,9 +7,9 @@ Import-Module project-commands
 
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
-Set-Alias ssh-agent 'D:\Program Files (x86)\Git\bin\ssh-agent.exe'
-Set-Alias ssh-add 'D:\Program Files (x86)\Git\bin\ssh-add.exe'
-Set-Alias ssh 'D\Program Files (x86)\Git\bin\ssh.exe'
+Set-Alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
+Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
+Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
@@ -49,7 +49,7 @@ Pop-Location
 
 
 # put me in my current project directory
-cd D:\Projects
+cd E:\Projects
 
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
