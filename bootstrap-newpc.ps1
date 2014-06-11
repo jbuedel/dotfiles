@@ -25,6 +25,8 @@ cinst resharper
 cinst dotcover
 cinst dotpeek
 
+cinst ungit # html git client
+
 cinst autohotkey
 
 # Doesn't exist.
