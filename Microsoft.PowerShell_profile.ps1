@@ -60,6 +60,10 @@ Pop-Location
 # put me in my current project directory
 cd ~\Projects\Olympus
 
+# Ungit checks if it's already running and kills itself. No need to check for that here.
+write-host "Launching ungit on Olympus"
+start-job -ScriptBlock { pushd ~\Projects\Olympus ; ungit }
+
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
 
