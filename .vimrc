@@ -22,6 +22,10 @@ set hlsearch
 " Get .swp files out of the file dir. http://stackoverflow.com/a/21026618/947
 set directory=$HOME/vimtmp/swapfiles/
 
+set incsearch " Preview as you type "
+set ignorecase " Don't be case sensitive "
+set smartcase " If you type a capital letter, be case sensitive "
+
 " Highlight the current line.
 set cursorline
 hi CursorLine term=none cterm=none ctermbg=yellow guibg=yellow
