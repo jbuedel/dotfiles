@@ -1,0 +1,24 @@
+set backspace=indent,eol,start
+map <z><r> :vsc ReSharper.ReSharper_Rename<CR>
+map <z><q> :vsc Window.CloseAllDocuments<CR>
+map <z></> :vsc ReSharper.ReSharper_LineComment<CR>
+map <z><?> :vsc ReSharper.ReSharper_BlockComment<CR>
+
+" http://inside.github.io/vim-presentation/#/57
+map <g><;> :vsc ReSharper.ReSharper_GotoLastEditLocation<CR>
+
+" Replace vim standard with the VS version
+map <%>    :vsc Edit.GotoBrace<CR>
+
+" These do not work.
+map <z><w> :vsc ReSharper.ReSharper_ExtendSelection<CR>
+map <z><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
+
+
+" Keeps the cursor centered vertically on the screen
+set scrolloff=15
+
+# Highlight all matches in a file when searching
+set hlsearch
+
+
