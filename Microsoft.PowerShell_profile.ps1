@@ -91,6 +91,7 @@ function rdp {
     if($server -eq "orchestrator") { $the_server = "172.27.10.30" }
     if($server -eq "vmm") { $the_server = "172.27.10.10" }
     if($server -eq "lansweeper") { $the_server = "172.27.10.12" }
+    if($server -eq "jbuedel1-pc") { $the_server = "10.10.11.129" }
 
     Start-RDP -Server $the_server -Fullscreen
 }
