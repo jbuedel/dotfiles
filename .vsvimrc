@@ -3,6 +3,9 @@ map <z><r> :vsc ReSharper.ReSharper_Rename<CR>
 map <z><q> :vsc Window.CloseAllDocuments<CR>
 map <z></> :vsc ReSharper.ReSharper_LineComment<CR>
 map <z><?> :vsc ReSharper.ReSharper_BlockComment<CR>
+map <z><i> :vsc ReSharper.ReSharper_InlineVariable<CR>
+map <z><p> :vsc ReSharper.ReSharper_IntroParameter<CR>
+map <z><v> :vsc ReSharper.ReSharper_IntroduceVariable<CR>
 
 " http://inside.github.io/vim-presentation/#/57
 map <g><;> :vsc ReSharper.ReSharper_GotoLastEditLocation<CR>
