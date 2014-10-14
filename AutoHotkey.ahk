@@ -28,7 +28,7 @@ return
 IfWinExist HipChat
 	WinActivate
 else
-	Run HipChat
+	Run, "%ProgramFiles% (x86)\Atlassian\HipChat\hipchat.exe"
 return
 
 ; Open iTunes on Ctrl+Alt+t
