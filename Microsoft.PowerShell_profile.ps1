@@ -1,5 +1,5 @@
 set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
-set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+set-alias bc 'C:\Program Files (x86)\Beyond Compare 4\BComp.exe'
 
 Import-Module posh-git
 Import-Module posh-josh
@@ -65,7 +65,7 @@ cd ~\Projects\Olympus
 #start-job -ScriptBlock { pushd ~\Projects\Olympus ; ungit }
 
 "Your custom settings are almost complete, my overlord."
-"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
+"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', 'VS2012', or 'vs2013' command to do this."
 
 
 function foo {
