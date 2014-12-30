@@ -7,6 +7,19 @@ map <z><i> :vsc ReSharper.ReSharper_InlineVariable<CR>
 map <z><p> :vsc ReSharper.ReSharper_IntroParameter<CR>
 map <z><v> :vsc ReSharper.ReSharper_IntroduceVariable<CR>
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"	Ideas for my VsVim config.
+" * Make jk move through R# Result lists when that window is active.
+" * Change the movements for 'sentence' and 'paragraph' to make more 
+"   sense for code. (Probably vim already supports this somehow.) 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" These commands are not the correct R# commands for navigating 
+" through result lists while in the code view. These move up and
+" down within the result list window itself.
+"map <z><n> :vsc ReSharper.ReSharper_ResultList_GoToNextLocation<CR>
+"map <z><N> :vsc ReSharper.ReSharper_ResultList_GoToPrevLocation<CR>
+
 " http://inside.github.io/vim-presentation/#/57
 map <g><;> :vsc ReSharper.ReSharper_GotoLastEditLocation<CR>
 
