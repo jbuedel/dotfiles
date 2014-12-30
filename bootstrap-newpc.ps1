@@ -3,6 +3,12 @@
 # Install chocolatey.
 (new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1') | iex
 
+# Install boxstarter, which gives a bunch of other commands.
+choco install boxstarter
+
+# Make explorer more tolerable.
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
 cinst vim
 cinst googlechrome
 cinst firefox
@@ -19,6 +25,7 @@ cinst linqpad4
 cinst sysinternals
 cinst dropbox
 cinst paint.net
+cinst dropbox
 
 cinst dotpeek
 cinst resharper
@@ -27,8 +34,8 @@ cinst dotpeek
 
 cinst ungit # html git client
 
+# Autohotkey needs to reference my custom script, currently in DropBox.
 cinst autohotkey
 
-# Doesn't exist.
-#cinst webmatrix
+cinst webmatrix
 
