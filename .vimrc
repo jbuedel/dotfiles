@@ -16,6 +16,9 @@ au GUIEnter * simalt ~x
 " Keeps the cursor centered vertically on the screen
 set scrolloff=15
 
+" Use all spaces, no tabs
+set tabstop=2 shiftwidth=2 expandtab
+
 " Highlight all matches in a file when searching
 set hlsearch
 
@@ -27,7 +30,8 @@ set ignorecase " Don't be case sensitive "
 set smartcase " If you type a capital letter, be case sensitive "
 
 " Highlight the current line.
-set cursorline
+"set cursorline
+" The yellow highlight obscures syntax highlighting.
 hi CursorLine term=none cterm=none ctermbg=yellow guibg=yellow
 
 " Remap jk to esc for faster insert mode exiting.
