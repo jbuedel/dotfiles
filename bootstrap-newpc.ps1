@@ -20,21 +20,18 @@ cinst itunes
 cinst conemu
 cinst EthanBrown.ConEmuConfig
 cinst hipchat
-cinst ungit
+
 cinst linqpad4
 cinst sysinternals
 cinst dropbox
 cinst paint.net
-cinst dropbox
 
 cinst dotpeek
 cinst resharper
 cinst dotcover
 cinst dotpeek
 
-cinst ungit # html git client
-
-# Autohotkey needs to reference my custom script, currently in DropBox.
+# TODO: Autohotkey needs to reference my custom script, currently in DropBox.
 cinst autohotkey
 
 cinst webmatrix
