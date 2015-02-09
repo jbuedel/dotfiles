@@ -17,6 +17,9 @@ git config --global user.name "Josh Buedel"
 git config --global user.email "jbuedel@gmail.com"
 
 
+if(!(test-path ~\.ssh) { 
+	md ~\.ssh 
+}
 if(!(test-path ~\.ssh\id_rsa)){
 	write-host "ssh key file not found.  creating one."
 	$keyfile = (Convert-Path ~\.ssh\) + "id_rsa"
