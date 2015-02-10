@@ -9,30 +9,32 @@ choco install boxstarter
 # Make explorer more tolerable.
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-cinst vim
-cinst googlechrome
-cinst firefox
-cinst msysgit # duplicated from bootstrap-powershell.ps1 but whatever
-cinst beyondcompare
-cinst notepadplusplus
-cinst windirstat
-cinst itunes
-cinst conemu
-cinst EthanBrown.ConEmuConfig
-cinst hipchat
+choco install vim
+choco install googlechrome
+choco install firefox
+choco install msysgit # duplicated from bootstrap-powershell.ps1 but whatever
+choco install beyondcompare
+choco install notepadplusplus
+choco install windirstat
+choco install itunes
+choco install conemu
+choco install EthanBrown.ConEmuConfig
+choco install hipchat
 
-cinst linqpad4
-cinst sysinternals
-cinst dropbox
-cinst paint.net
+choco install linqpad4
+choco install sysinternals
+choco install dropbox
+choco install paint.net
 
-cinst dotpeek
-cinst resharper
-cinst dotcover
-cinst dotpeek
+choco install dotpeek
+choco install resharper
+choco install dotcover
+choco install dotpeek
 
 # TODO: Autohotkey needs to reference my custom script, currently in DropBox.
-cinst autohotkey
+choco install autohotkey
 
-cinst webmatrix
+choco install webmatrix
+
+choco install pscx
 

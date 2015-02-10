@@ -1,5 +1,5 @@
 set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
-set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+set-alias bc 'C:\Program Files (x86)\Beyond Compare 4\BComp.exe'
 
 Import-Module posh-git
 Import-Module posh-josh
@@ -58,7 +58,7 @@ Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects\Olympus
+cd ~\Projects\
 
 # Ungit checks if it's already running and kills itself. No need to check for that here.
 #write-host "Launching ungit on Olympus"
