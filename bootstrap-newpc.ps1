@@ -31,8 +31,9 @@ choco install resharper
 choco install dotcover
 choco install dotpeek
 
-# TODO: Autohotkey needs to reference my custom script, currently in DropBox.
+# AutoHotKey has it's script file set via a sym-link created elsewhere.
 choco install autohotkey
+choco install windowpad
 
 choco install webmatrix
 
