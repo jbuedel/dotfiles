@@ -44,3 +44,6 @@ execute pathogen#infect()
 
 syntax enable
 filetype plugin indent on
+
+set shell=powershell
+set shellcmdflag=-command
