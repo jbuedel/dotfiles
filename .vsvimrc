@@ -6,6 +6,7 @@ map <z><?> :vsc ReSharper.ReSharper_BlockComment<CR>
 map <z><i> :vsc ReSharper.ReSharper_InlineVariable<CR>
 map <z><p> :vsc ReSharper.ReSharper_IntroParameter<CR>
 map <z><v> :vsc ReSharper.ReSharper_IntroduceVariable<CR>
+map <Leader><B> :vsc Build.BuildSolution<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "	Ideas for my VsVim config.
@@ -32,7 +33,7 @@ map <z><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
 
 
 " Keeps the cursor centered vertically on the screen
-set scrolloff=15
+set scrolloff=10
 
 # Highlight all matches in a file when searching
 set hlsearch
