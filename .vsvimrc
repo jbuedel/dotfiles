@@ -1,3 +1,5 @@
+// Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
+
 set backspace=indent,eol,start
 map <Leader><r> :vsc ReSharper.ReSharper_Rename<CR>
 map <Leader><q> :vsc Window.CloseAllDocuments<CR>
