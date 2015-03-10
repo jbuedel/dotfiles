@@ -8,6 +8,9 @@ set smartcase
 set backspace=indent,eol,start
 map <z><r> :vsc ReSharper.ReSharper_Rename<CR>
 map <z><q> :vsc Window.CloseAllDocuments<CR>
+
+" How can I map the VS comment/uncomment for situations where
+" the R# command does not exist (F# files for example).
 map <z></> :vsc ReSharper.ReSharper_LineComment<CR>
 map <z><?> :vsc ReSharper.ReSharper_BlockComment<CR>
 
