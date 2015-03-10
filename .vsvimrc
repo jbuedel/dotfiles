@@ -1,4 +1,4 @@
-
+// Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
 set incsearch
 set ignorecase
 set smartcase
@@ -6,13 +6,28 @@ set smartcase
 
 
 set backspace=indent,eol,start
-map <z><r> :vsc ReSharper.ReSharper_Rename<CR>
-map <z><q> :vsc Window.CloseAllDocuments<CR>
-
+map <Leader><r> :vsc ReSharper.ReSharper_Rename<CR>
+map <Leader><q> :vsc Window.CloseAllDocuments<CR>
 " How can I map the VS comment/uncomment for situations where
 " the R# command does not exist (F# files for example).
-map <z></> :vsc ReSharper.ReSharper_LineComment<CR>
-map <z><?> :vsc ReSharper.ReSharper_BlockComment<CR>
+map <Leader></> :vsc ReSharper.ReSharper_LineComment<CR>
+map <Leader><?> :vsc ReSharper.ReSharper_BlockComment<CR>
+map <Leader><i> :vsc ReSharper.ReSharper_InlineVariable<CR>
+map <Leader><p> :vsc ReSharper.ReSharper_IntroParameter<CR>
+map <Leader><v> :vsc ReSharper.ReSharper_IntroduceVariable<CR>
+map <Leader><B> :vsc Build.BuildSolution<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"	Ideas for my VsVim config.
+" * Make jk move through R# Result lists when that window is active.
+" * Change the movements for 'sentence' and 'paragraph' to make more 
+"   sense for code. (Probably vim already supports this somehow.) 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" These commands are not the correct R# commands for navigating 
+" through result lists while in the code view. These move up and
+" down within the result list window itself.
+"map <Leader><n> :vsc ReSharper.ReSharper_ResultList_GoToNextLocation<CR>
+"map <Leader><N> :vsc ReSharper.ReSharper_ResultList_GoToPrevLocation<CR>
 
 " http://inside.github.io/vim-presentation/#/57
 map <g><;> :vsc ReSharper.ReSharper_GotoLastEditLocation<CR>
@@ -21,12 +36,12 @@ map <g><;> :vsc ReSharper.ReSharper_GotoLastEditLocation<CR>
 map <%>    :vsc Edit.GotoBrace<CR>
 
 " These do not work.
-map <z><w> :vsc ReSharper.ReSharper_ExtendSelection<CR>
-map <z><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
+map <Leader><w> :vsc ReSharper.ReSharper_ExtendSelection<CR>
+map <Leader><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
 
 
 " Keeps the cursor centered vertically on the screen
-set scrolloff=15
+set scrolloff=10
 
 # Highlight all matches in a file when searching
 set hlsearch
