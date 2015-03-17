@@ -18,7 +18,8 @@ Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
 Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.exe"
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
 
-Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
+Set-Alias st 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
+Set-Alias gitex 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
 
 
 
