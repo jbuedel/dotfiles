@@ -21,7 +21,8 @@ Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
 Set-Alias st 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
 Set-Alias gitex 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
 
-
+# Disable git status caching
+$global:GitPromptSettings.StatusCacheSeconds = 0
 
 # Add stuff to path (what's better, adding to path or creating an alias?)
 # vim & gvim
