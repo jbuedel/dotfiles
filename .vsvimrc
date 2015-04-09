@@ -1,4 +1,4 @@
-// Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
+" Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
 
 set backspace=indent,eol,start
 map <Leader><r> :vsc ReSharper.ReSharper_Rename<CR>
@@ -37,7 +37,7 @@ map <Leader><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
 " Keeps the cursor centered vertically on the screen
 set scrolloff=10
 
-# Highlight all matches in a file when searching
+" Highlight all matches in a file when searching
 set hlsearch
 
 
