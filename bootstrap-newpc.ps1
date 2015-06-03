@@ -3,32 +3,39 @@
 # Install chocolatey.
 (new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1') | iex
 
-cinst vim
-cinst googlechrome
-cinst firefox
-cinst msysgit # duplicated from bootstrap-powershell.ps1 but whatever
-cinst beyondcompare
-cinst notepadplusplus
-cinst windirstat
-cinst itunes
-cinst conemu
-cinst EthanBrown.ConEmuConfig
-cinst hipchat
-cinst ungit
-cinst linqpad4
-cinst sysinternals
-cinst dropbox
-cinst paint.net
+# Install boxstarter, which gives a bunch of other commands.
+choco install boxstarter
 
-cinst dotpeek
-cinst resharper
-cinst dotcover
-cinst dotpeek
+# Make explorer more tolerable.
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
-cinst ungit # html git client
+choco install vim
+choco install googlechrome
+choco install firefox
+choco install msysgit # duplicated from bootstrap-powershell.ps1 but whatever
+choco install beyondcompare
+choco install notepadplusplus
+choco install windirstat
+choco install itunes
+choco install conemu
+choco install EthanBrown.ConEmuConfig
+choco install hipchat
 
-cinst autohotkey
+choco install linqpad4
+choco install sysinternals
+choco install dropbox
+choco install paint.net
 
-# Doesn't exist.
-#cinst webmatrix
+choco install dotpeek
+choco install resharper
+choco install dotcover
+choco install dotpeek
+
+# AutoHotKey has it's script file set via a sym-link created elsewhere.
+choco install autohotkey
+choco install windowpad
+
+choco install webmatrix
+
+choco install pscx
 
