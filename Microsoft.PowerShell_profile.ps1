@@ -19,7 +19,8 @@ Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
-Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
+Set-Alias st 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
+Set-Alias gitex 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
 Set-Alias appcmd "$env:systemroot\system32\inetsrv\appcmd.exe"
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
