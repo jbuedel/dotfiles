@@ -15,6 +15,9 @@
 
 #z::Run www.autohotkey.com
 
+; Make CapsLock double as Esc - useful for vim
+Capslock::Esc
+
 ; Open Notepad++ on Ctrl+Alt+n
 ^!n::
 IfWinExist Notepad++
@@ -39,7 +42,14 @@ else
 	Run iTunes
 return
 
-
+; Open Chrome on Ctrl+Alt+c
+^!c::
+SetTitleMatchMode 2
+IfWinExist Google Chrome
+    WinActivate, Google Chrome
+else
+    run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+return
 
 
 ; Note: From now on whenever you run AutoHotkey directly, this script
@@ -49,4 +59,4 @@ return
 ; It explains how to perform common automation tasks such as sending
 ; keystrokes and mouse clicks.  It also explains more about hotkeys.
 
-Capslock::Esc
+

@@ -1,7 +1,4 @@
-// Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
-set incsearch
-set ignorecase
-set smartcase
+" Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
 
 
 
