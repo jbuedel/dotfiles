@@ -92,7 +92,7 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper")][string]$server)
+    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper","ams-build-01.amscorp.net")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
@@ -190,3 +190,18 @@ function Set-FileTime{
 }
 
 New-Alias touch Set-FileTime
+
+function toggle-git {
+  if (test-path .git) {
+    mv .git .gitdisabled
+  }
+  else {
+    if (test-path .gitdisabled) {
+    mv .gitdisabled .git
+    }
+    else {
+      echo "No git repository detected. Are you in the repo root?"
+    }
+  }
+}
+
