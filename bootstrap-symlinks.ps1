@@ -7,3 +7,8 @@ new-symlink ~\.gvimrc ~\Documents\WindowsPowerShell\.gvimrc
 new-symlink ~\.vsvimrc ~\Documents\WindowsPowerShell\.vsvimrc
 # AutoHotKey looks in ~\Documents by default.
 new-symlink ~\Documents\AutoHotKey.ahk ~\Documents\WindowsPowerShell\AutoHotKey.ahk
+
+
+# TODO: add Beyond Compare stuff 
+#"$env:APPDATA\Scooter Software\Beyond Compare 4" *.xml
+#
