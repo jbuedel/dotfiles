@@ -9,6 +9,5 @@ new-symlink ~\.vsvimrc ~\Documents\WindowsPowerShell\.vsvimrc
 new-symlink ~\Documents\AutoHotKey.ahk ~\Documents\WindowsPowerShell\AutoHotKey.ahk
 
 
-# TODO: add Beyond Compare stuff 
-#"$env:APPDATA\Scooter Software\Beyond Compare 4" *.xml
-#
+# Set up symlinks to my Beyond Compare settings.
+New-Symlink -TargetPath '~\Documents\WindowsPowerShell\Beyond Compare 4\' -LiteralPath '~\AppData\Roaming\Scooter Software\Beyond Compare 4'
