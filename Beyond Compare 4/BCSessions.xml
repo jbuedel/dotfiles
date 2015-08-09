@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TTextMergeSession Value="GeneralInformation.cs">
+						<LastModified Value="2015-07-31 12:34:44"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.13708.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.13708.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.13708.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ParameterCollectionThalmann.cs">
+						<LastModified Value="2015-07-31 12:30:01"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.LOCAL.22444.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.REMOTE.22444.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.BASE.22444.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ParameterCollectionBase.cs">
+						<LastModified Value="2015-07-31 12:28:42"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.7892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.7892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.7892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="FoldingSolution.cs">
+						<LastModified Value="2015-07-31 12:16:18"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.LOCAL.18296.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.REMOTE.18296.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.BASE.18296.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="AdvancedSettings.cs">
+						<LastModified Value="2015-07-31 10:57:54"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="GeometryCsvProcessor.cs">
+						<LastModified Value="2015-07-31 10:57:07"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="RetractOptimizationTests.cs">
+						<LastModified Value="2015-07-31 10:56:22"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="LoadProfilesDataTests.cs">
+						<LastModified Value="2015-07-31 10:55:45"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="CompareOldAndNewProfilesTest.cs">
+						<LastModified Value="2015-07-31 10:55:10"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="GeneralInformation.cs">
+						<LastModified Value="2015-07-31 10:53:51"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ParameterCollectionThalmann.cs">
+						<LastModified Value="2015-07-31 10:50:14"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ParameterCollectionBase.cs">
+						<LastModified Value="2015-07-31 10:49:40"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.14820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.14820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.14820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="AdvancedSettings.cs">
+						<LastModified Value="2015-07-31 10:18:19"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="GeometryCsvProcessor.cs">
+						<LastModified Value="2015-07-31 10:15:00"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="RetractOptimizationTests.cs">
+						<LastModified Value="2015-07-31 10:14:43"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="LoadProfilesDataTests.cs">
+						<LastModified Value="2015-07-31 10:14:24"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="CompareOldAndNewProfilesTest.cs">
+						<LastModified Value="2015-07-31 10:14:15"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="GeneralInformation.cs">
+						<LastModified Value="2015-07-31 10:13:46"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
+						</Specs>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ParameterCollectionBase.cs">
+						<LastModified Value="2015-07-31 10:13:19"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.21484.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.21484.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.21484.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
+						</Specs>
+					</TTextMergeSession>
+				</Items>
+			</TSessionFolder>
+			<TDirCompareSession>
+				<Rules>
+					<ExpandAllOnLoad Value="True"/>
+					<ExpandDiffsOnLoad Value="True"/>
+				</Rules>
+			</TDirCompareSession>
+		</Items>
+	</TSessionFolder>
+</BCSessions>
