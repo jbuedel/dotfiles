@@ -1,12 +1,8 @@
 " Look here for inspiration https://github.com/aburok/mysettings/blob/master/Vim/_vsvimrc
 
-
-
 set backspace=indent,eol,start
 map <Leader><r> :vsc ReSharper.ReSharper_Rename<CR>
 map <Leader><q> :vsc Window.CloseAllDocuments<CR>
-" How can I map the VS comment/uncomment for situations where
-" the R# command does not exist (F# files for example).
 map <Leader></> :vsc ReSharper.ReSharper_LineComment<CR>
 map <Leader><?> :vsc ReSharper.ReSharper_BlockComment<CR>
 map <Leader><i> :vsc ReSharper.ReSharper_InlineVariable<CR>
@@ -20,6 +16,7 @@ map <Leader><B> :vsc Build.BuildSolution<CR>
 " * Change the movements for 'sentence' and 'paragraph' to make more 
 "   sense for code. (Probably vim already supports this somehow.) 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " These commands are not the correct R# commands for navigating 
 " through result lists while in the code view. These move up and
 " down within the result list window itself.
@@ -42,3 +39,5 @@ set scrolloff=10
 
 " Highlight all matches in a file when searching
 set hlsearch
+
+

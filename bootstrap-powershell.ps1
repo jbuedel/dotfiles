@@ -4,7 +4,7 @@
 #   (new-object net.webclient).DownloadString("https://raw.github.com/jbuedel/dotfiles/work-desktop/bootstrap-powershell.ps1") | iex
 
 # Create ~\Documents\WindowsPowerShell
-if(!(test-path $profile\..)) {mkdir $profile\.. }
+if(!(test-path $profile\..)) { mkdir $profile\.. }
 cd $profile\..
 
 #install chocolately
