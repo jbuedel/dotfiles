@@ -37,6 +37,7 @@ choco install windowpad
 
 choco install webmatrix
 
+choco install dependencywalker
 choco install pscx
 
 # Installs atom and then cool plug ins
