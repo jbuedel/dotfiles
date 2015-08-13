@@ -60,7 +60,7 @@ Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects\
+cd ~\Projects\Repos\AMS-GIT\
 
 # Ungit checks if it's already running and kills itself. No need to check for that here.
 #write-host "Launching ungit on Olympus"
