@@ -11,3 +11,6 @@ new-symlink ~\Documents\AutoHotKey.ahk ~\Documents\WindowsPowerShell\AutoHotKey.
 
 # Set up symlinks to my Beyond Compare settings.
 New-Symlink -TargetPath '~\Documents\WindowsPowerShell\Beyond Compare 4\' -LiteralPath '~\AppData\Roaming\Scooter Software\Beyond Compare 4'
+
+# Symlink to my ConEmu settings.
+ new-symlink ~\ConEmu.xml ~\Documents\WindowsPowerShell\ConEmu.xml
