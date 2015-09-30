@@ -1,5 +1,5 @@
-set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
-set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+set-alias git "${env:ProgramFiles}\Git\cmd\git.exe"
+set-alias bc 'C:\Program Files (x86)\Beyond Compare 4\BComp.exe'
 
 Import-Module posh-git
 import-module posh-josh
@@ -13,9 +13,10 @@ Import-Module psreadline
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
 
-set-alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
-set-alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
-Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
+# I think there is a better way to get to ssh stuff. An environment var, or maybe Pageant.
+Set-Alias ssh-agent "${env:ProgramFiles}\Git\usr\bin\ssh-agent.exe"
+Set-Alias ssh-add "${env:ProgramFiles}\Git\usr\bin\ssh-add.exe"
+Set-Alias ssh "${env:ProgramFiles}\Git\usr\bin\ssh.exe"
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
