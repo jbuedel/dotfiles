@@ -43,3 +43,6 @@ choco install pscx
 # Installs atom and then cool plug ins
 choco install atom
 apm install vim-mode
+
+# Use vim as default editor in git.
+git config --global core.editor "vim"
