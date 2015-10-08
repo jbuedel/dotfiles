@@ -40,4 +40,5 @@ set scrolloff=10
 " Highlight all matches in a file when searching
 set hlsearch
 
-
+" Use jk instead of Esc
+inoremap jk <Esc>
