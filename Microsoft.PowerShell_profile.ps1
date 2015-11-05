@@ -1,5 +1,5 @@
 set-alias git "${env:ProgramFiles}\Git\cmd\git.exe"
-set-alias bc 'C:\Program Files (x86)\Beyond Compare 4\BComp.exe'
+set-alias bc "${env:ProgramFiles(x86)}\Beyond Compare 4\BComp.exe"
 
 Import-Module posh-git
 Import-Module posh-josh
@@ -14,13 +14,10 @@ Set-Alias ssh-agent "${env:ProgramFiles}\Git\usr\bin\ssh-agent.exe"
 Set-Alias ssh-add "${env:ProgramFiles}\Git\usr\bin\ssh-add.exe"
 Set-Alias ssh "${env:ProgramFiles}\Git\usr\bin\ssh.exe"
 
-Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
-Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.exe"
-Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
+Set-Alias -name notepad++ '${env:ProgramFiles(x86)}\notepad++\notepad++.exe'
+set-Alias linqpad '${env:ProgramFiles(x86)}LINQPad4\LINQPad.exe'
 
-Set-Alias st 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
-Set-Alias gitex 'C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe'
+Set-Alias st '${env:ProgramFiles(x86)}Atlassian\SourceTree\SourceTree.exe'
 
 # Disable git status caching
 $global:GitPromptSettings.StatusCacheSeconds = 0
@@ -60,6 +57,7 @@ Pop-Location
 
 # put me in my current project directory
 cd ~\Projects\Repos\AMS-GIT\
+cd ~\Projects\Repos\Eclipse\src\
 
 # Ungit checks if it's already running and kills itself. No need to check for that here.
 #write-host "Launching ungit on Olympus"
