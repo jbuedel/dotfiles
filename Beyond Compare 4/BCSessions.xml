@@ -5,6 +5,568 @@
 		<Items>
 			<TSessionFolder>
 				<Items>
+					<TDirCompareSession Value="AMS.Pathfinder.Updater">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 17:24:30"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\Pathfinder\AMS.Pathfinder.Updater"/>
+							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.01\Pathfinder\AMS.Pathfinder.Updater"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="AMS.Pathfinder.Updater">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 17:09:50"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\Pathfinder\AMS.Pathfinder.Updater"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Updater"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="V2.5.3612_UNHASPED_PathfinderUpdate.zip &lt;--> ToHASP">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 12:53:54"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_UNHASPED_PathfinderUpdate.zip"/>
+							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\ToHASP"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="V2.5.3612_PathfinderUpdate.zip &lt;--> V2.5.3612_UNHASPED_PathfinderUpdate.zip">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 12:51:30"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_PathfinderUpdate.zip"/>
+							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_UNHASPED_PathfinderUpdate.zip"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Topshelf.Nancy &lt;--> Topshelf.Nancy.2">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 11:35:55"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Topshelf.Nancy"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Topshelf.Nancy.2"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="V2.5_150918_170825_PathfinderUpdate.zip &lt;--> V2.5.3612_PathfinderUpdate.zip">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 10:38:56"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5_150918_170825_PathfinderUpdate.zip"/>
+							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_PathfinderUpdate.zip"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="V2.5_150203_144856_PathfinderUpdate.zip &lt;--> V2.5.3612_PathfinderUpdate.zip">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-05 10:30:23"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5_150203_144856_PathfinderUpdate.zip"/>
+							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_PathfinderUpdate.zip"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextMergeSession Value="INSTALL.md">
+						<LastModified Value="2015-11-05 09:16:11"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL_LOCAL_14968.md"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL_REMOTE_14968.md"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL_BASE_14968.md"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL.md"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TDirCompareSession Value="Debug &lt;--> tools">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-11-02 16:03:06"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\bin\x64\Debug"/>
+							<Right Value="C:\ProgramData\chocolatey\lib\ams-eclipse-server\tools"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="eclipse-server.nuspec &lt;--> eclipse-agent.nuspec">
+						<LastModified Value="2015-10-30 19:26:11"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\eclipse-server.nuspec"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\eclipse-agent.nuspec"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TVerCompareSession Value="AMS.Eclipse.Agent.exe">
+						<LastModified Value="2015-10-30 18:15:29"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent.exe"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\bin\x86\Debug\AMS.Eclipse.Agent.exe"/>
+						</Specs>
+					</TVerCompareSession>
+					<TTextMergeSession Value="ApplicationManager.cs">
+						<LastModified Value="2015-10-30 17:22:11"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_LOCAL_5136.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_REMOTE_5136.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_BASE_5136.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TDirCompareSession Value="Debug">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-30 17:06:42"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\Deliverables\Debug"/>
+							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.01\Deliverables\Debug"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="AMS.Pathfinder - v2.01.sln &lt;--> AMS.Pathfinder - v2.5.sln">
+						<LastModified Value="2015-10-30 13:50:35"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\AMS.Pathfinder - v2.01.sln"/>
+							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\AMS.Pathfinder - v2.5.sln"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<THexCompareSession Value="base64-decoded.bin &lt;--> Alive.1.0.vsix">
+						<LastModified Value="2015-10-30 13:10:16"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Downloads\base64-decoded.bin"/>
+							<Right Value="C:\Users\jbuedel\Downloads\Alive.1.0.vsix"/>
+						</Specs>
+					</THexCompareSession>
+					<TTextCompareSession Value="Pathfinder_PathfinderEdge_PathfinderEdge1.xml &lt;--> Pathfinder_PathfinderEdge_PathfinderEdgeDevelop.xml">
+						<LastModified Value="2015-10-26 16:57:43"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1.xml"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdgeDevelop.xml"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Pathfinder_Edge_Pathfinder_Edge_-_Staging_0.0.0.3597.log &lt;--> Pathfinder_Edge_Pathfinder_Edge_-_Production_0.0.0.3581.log">
+						<LastModified Value="2015-10-26 16:55:01"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;LineNum"/>
+									<ValueBool Value="True"/>
+								</Item>
+							</ElementSigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Downloads\Pathfinder_Edge_Pathfinder_Edge_-_Staging_0.0.0.3597.log"/>
+							<Right Value="C:\Users\jbuedel\Downloads\Pathfinder_Edge_Pathfinder_Edge_-_Production_0.0.0.3581.log"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdge1.xml">
+						<LastModified Value="2015-10-26 12:16:29"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1_LOCAL_14712.xml"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1_REMOTE_14712.xml"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1.xml"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdgeProduction.xml">
+						<LastModified Value="2015-10-26 12:15:40"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeProduction_LOCAL_14712.xml"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeProduction_REMOTE_14712.xml"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeProduction.xml"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate.xml">
+						<LastModified Value="2015-10-26 12:15:27"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate_LOCAL_14712.xml"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate_REMOTE_14712.xml"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate.xml"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdgeCi.xml">
+						<LastModified Value="2015-10-26 12:14:41"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCi_LOCAL_14712.xml"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCi_REMOTE_14712.xml"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCi.xml"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="stderr.txt &lt;--> stderr-list.txt">
+						<LastModified Value="2015-10-23 09:15:20"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\choco\src\stderr.txt"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\choco\src\stderr-list.txt"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="out.txt &lt;--> stderr.txt">
+						<LastModified Value="2015-10-23 09:13:18"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\choco\src\out.txt"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\choco\src\stderr.txt"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="v2 &lt;--> v2.bak">
+						<LastModified Value="2015-10-22 13:41:51"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\C\v2"/>
+							<Right Value="C:\C\v2.bak"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value=".teamcity">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-16 19:17:46"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\.teamcity"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\.teamcity"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="chocolatey &lt;--> chocolatey.josh">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-16 16:20:22"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\ProgramData\chocolatey"/>
+							<Right Value="C:\ProgramData\chocolatey.josh"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="eclipse-agent.nuspec &lt;--> eclipse-server.nuspec">
+						<LastModified Value="2015-10-16 12:07:50"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\eclipse-agent.nuspec"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\eclipse-server.nuspec"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="chocolateyinstall.ps1 &lt;--> chocolateyuninstall.ps1">
+						<LastModified Value="2015-10-15 17:36:21"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\tools\chocolateyinstall.ps1"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\tools\chocolateyuninstall.ps1"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="chocolateyinstall.ps1 &lt;--> chocolateyuninstall.ps1">
+						<LastModified Value="2015-10-15 17:35:16"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\tools\chocolateyinstall.ps1"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\tools\chocolateyuninstall.ps1"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Eclipse.Agent &lt;--> Eclipse.Agent.portable">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-15 16:39:48"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent.portable"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="chocolatey &lt;--> chocolateyauto">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-15 15:39:59"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolatey"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolateyauto"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Eclipse.Agent.portable &lt;--> Eclipse.Agent.install">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-15 15:39:39"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent.portable"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent.install"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="chocolateyauto &lt;--> chocolateyauto3">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-15 15:27:54"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolateyauto"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolateyauto3"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="chocolatey &lt;--> chocolatey3">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-15 15:23:45"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolatey"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolatey3"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="5225BB.S19 &lt;--> 5223BB.S19">
+						<LastModified Value="2015-10-14 09:16:34"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Downloads\2.05.01_PathfinderUpdate\5225BB.S19"/>
+							<Right Value="C:\Users\jbuedel\Downloads\2.05.01_PathfinderUpdate\5223BB.S19"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Pathfinder.v3.X &lt;--> v2.5">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+						</Filters>
+						<LastModified Value="2015-10-12 10:34:54"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X"/>
+							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Pathfinder.v3.X &lt;--> v3.X">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\"/>
+						</Filters>
+						<LastModified Value="2015-10-12 10:34:09"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X"/>
+							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v3.X"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value=".gitconfig &lt;--> .gitconfig.bak">
+						<LastModified Value="2015-10-08 10:54:57"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\.gitconfig"/>
+							<Right Value="C:\Users\jbuedel\.gitconfig.bak"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextMergeSession Value="AMS.Eclipse.Server.csproj">
+						<LastModified Value="2015-10-08 10:20:18"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server_LOCAL_3388.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server_REMOTE_3388.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server_BASE_3388.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TVerCompareSession Value="PathfinderUpdater.exe">
+						<LastModified Value="2015-10-02 17:36:35"/>
+						<Specs>
+							<Left Value="C:\Program Files\AMS Controls\Utility\PathfinderUpdater.exe"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\Deliverables\Debug\PathfinderUpdater.exe"/>
+						</Specs>
+					</TVerCompareSession>
+					<THexCompareSession Value="DatabaseUpdateManagerTests.v2.25.SDF &lt;--> Pathfinder.SDF">
+						<LastModified Value="2015-10-02 11:16:12"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.v2.25.SDF"/>
+							<Right Value="C:\Users\jbuedel\Downloads\Pathfinder.SDF"/>
+						</Specs>
+					</THexCompareSession>
+					<TDirCompareSession Value="v2.01 &lt;--> v2.5">
+						<Filters>
+							<NameFilter Value="-*sln.ide\;-Bin\;-Obj\"/>
+						</Filters>
+						<LastModified Value="2015-09-30 16:22:00"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.01"/>
+							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
 					<TTextCompareSession Value="NLog.config">
 						<LastModified Value="2015-08-17 11:11:25"/>
 						<Specs>
@@ -703,219 +1265,18 @@
 							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
 						</Specs>
 					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionBase.cs">
-						<LastModified Value="2015-08-12 11:35:47"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ImportManagerTests.cs">
-						<LastModified Value="2015-08-12 11:26:19"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\ImportManagerTests.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\ImportManagerTests.cs.REMOTE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\ImportManagerTests.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseUpdateManagerTests.cs">
-						<LastModified Value="2015-08-12 11:25:47"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeneralInformation.cs">
-						<LastModified Value="2015-07-31 12:34:44"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.13708.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.13708.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.13708.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionThalmann.cs">
-						<LastModified Value="2015-07-31 12:30:01"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.LOCAL.22444.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.REMOTE.22444.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.BASE.22444.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionBase.cs">
-						<LastModified Value="2015-07-31 12:28:42"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.7892.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.7892.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.7892.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="FoldingSolution.cs">
-						<LastModified Value="2015-07-31 12:16:18"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.LOCAL.18296.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.REMOTE.18296.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.BASE.18296.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AdvancedSettings.cs">
-						<LastModified Value="2015-07-31 10:57:54"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeometryCsvProcessor.cs">
-						<LastModified Value="2015-07-31 10:57:07"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="RetractOptimizationTests.cs">
-						<LastModified Value="2015-07-31 10:56:22"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="LoadProfilesDataTests.cs">
-						<LastModified Value="2015-07-31 10:55:45"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="CompareOldAndNewProfilesTest.cs">
-						<LastModified Value="2015-07-31 10:55:10"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeneralInformation.cs">
-						<LastModified Value="2015-07-31 10:53:51"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionThalmann.cs">
-						<LastModified Value="2015-07-31 10:50:14"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionBase.cs">
-						<LastModified Value="2015-07-31 10:49:40"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.14820.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.14820.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.14820.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AdvancedSettings.cs">
-						<LastModified Value="2015-07-31 10:18:19"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.ViewPresenter\Ported\UserControls\AdvancedSettings.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeometryCsvProcessor.cs">
-						<LastModified Value="2015-07-31 10:15:00"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="RetractOptimizationTests.cs">
-						<LastModified Value="2015-07-31 10:14:43"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="LoadProfilesDataTests.cs">
-						<LastModified Value="2015-07-31 10:14:24"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="CompareOldAndNewProfilesTest.cs">
-						<LastModified Value="2015-07-31 10:14:15"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeneralInformation.cs">
-						<LastModified Value="2015-07-31 10:13:46"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
-						</Specs>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionBase.cs">
-						<LastModified Value="2015-07-31 10:13:19"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.21484.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.21484.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.21484.cs"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
-						</Specs>
-					</TTextMergeSession>
 				</Items>
 			</TSessionFolder>
 			<TDirCompareSession>
+				<Filters>
+					<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+				</Filters>
 				<Rules>
 					<ExpandAllOnLoad Value="True"/>
 					<ExpandDiffsOnLoad Value="True"/>
+					<UseContentComparison Value="True"/>
 				</Rules>
-				<State>
-					<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-				</State>
 			</TDirCompareSession>
-			<TTextCompareSession>
-				<State>
-					<InsigIgnored Value="True"/>
-				</State>
-			</TTextCompareSession>
 			<TTextMergeSession>
 				<State>
 					<InsigIgnored Value="True"/>
