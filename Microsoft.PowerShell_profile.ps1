@@ -2,7 +2,7 @@ set-alias git "${env:ProgramFiles}\Git\cmd\git.exe"
 set-alias bc "${env:ProgramFiles(x86)}\Beyond Compare 4\BComp.exe"
 
 Import-Module posh-git
-Import-Module posh-josh
+Import-Module posh-josh -DisableNameChecking
 Import-Module project-commands
 Import-Module psreadline
 
