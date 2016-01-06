@@ -14,10 +14,11 @@ Set-Alias ssh-agent "${env:ProgramFiles}\Git\usr\bin\ssh-agent.exe"
 Set-Alias ssh-add "${env:ProgramFiles}\Git\usr\bin\ssh-add.exe"
 Set-Alias ssh "${env:ProgramFiles}\Git\usr\bin\ssh.exe"
 
-Set-Alias -name notepad++ '${env:ProgramFiles(x86)}\notepad++\notepad++.exe'
-set-Alias linqpad '${env:ProgramFiles(x86)}LINQPad4\LINQPad.exe'
+Set-Alias -name notepad++ "${env:ProgramFiles(x86)}\notepad++\notepad++.exe"
+set-Alias linqpad "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
 
-Set-Alias st '${env:ProgramFiles(x86)}Atlassian\SourceTree\SourceTree.exe'
+Set-Alias st "${env:ProgramFiles(x86)}\Atlassian\SourceTree\SourceTree.exe"
+Set-Alias 7z "${env:ProgramFiles}\7-Zip\7z.exe"
 
 # Disable git status caching
 $global:GitPromptSettings.StatusCacheSeconds = 0
@@ -49,6 +50,7 @@ function prompt {
     return ">"
 }
 
+# TODO: Switch to this https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
 
