@@ -15,7 +15,8 @@ if(-not (get-command chocolatey)) {
 cinst msysgit
 git config --global user.name "Josh Buedel"
 git config --global user.email "jbuedel@gmail.com"
-
+# Stop creating .orig files on merge.
+git config --global mergetool.keepBackup false
 
 if(!(test-path ~\.ssh)) { 
 	md ~\.ssh 
