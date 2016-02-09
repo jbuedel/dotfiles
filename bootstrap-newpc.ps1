@@ -20,6 +20,7 @@ choco install itunes
 choco install conemu
 choco install EthanBrown.ConEmuConfig
 choco install screentogif
+choco install tailblazer
 
 choco install linqpad4
 choco install sysinternals
