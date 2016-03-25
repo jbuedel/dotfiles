@@ -47,7 +47,6 @@ function prompt {
     return "> "
 }
 
-Enable-GitColors
 Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
 
