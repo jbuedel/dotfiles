@@ -12,7 +12,7 @@ if(-not (get-command chocolatey)) {
   iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
-cinst msysgit
+choco install msysgit
 git config --global user.name "Josh Buedel"
 git config --global user.email "jbuedel@gmail.com"
 # Stop creating .orig files on merge.
