@@ -1,3 +1,6 @@
+" Pathogen - loads anything in ~/vimfiles/bundle
+execute pathogen#infect()
+
 " The backup dir should gets the swp and ~ files, hence the next two options are not needed.
 set backupdir=~/vimtmp
 set nobackup
@@ -30,17 +33,15 @@ set ignorecase " Don't be case sensitive "
 set smartcase " If you type a capital letter, be case sensitive "
 
 " Highlight the current line.
-"set cursorline
+set cursorline
 " The yellow highlight obscures syntax highlighting.
-hi CursorLine term=none cterm=none ctermbg=yellow guibg=yellow
+"hi CursorLine term=none cterm=none ctermbg=yellow guibg=yellow
 
 " Remap jk to esc for faster insert mode exiting.
 inoremap jk <esc>
 " Disable esc - no thanks
 "inoremap <esc> <nop>
 
-" Pathogen - loads anything in ~/vimfiles/bundle
-execute pathogen#infect()
 
 syntax enable
 filetype plugin indent on
