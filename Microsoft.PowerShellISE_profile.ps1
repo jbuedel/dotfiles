@@ -1,23 +1,23 @@
-set-alias git 'C:\Program Files (x86)\Git\bin\git.exe'
-set-alias bc 'C:\Program Files (x86)\Beyond Compare 3\BComp.exe'
+set-alias git "${env:ProgramFiles}\Git\cmd\git.exe"
+set-alias bc "${env:ProgramFiles(x86)}\Beyond Compare 4\BComp.exe"
 
 Import-Module posh-git
-Import-Module posh-josh
+Import-Module posh-josh -DisableNameChecking
 Import-Module project-commands
+Import-Module psreadline
 
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
-Set-Alias ssh-agent 'C:\Program Files (x86)\Git\bin\ssh-agent.exe'
-Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
-Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
+# I think there is a better way to get to ssh stuff. An environment var, or maybe Pageant.
+Set-Alias ssh-agent "${env:ProgramFiles}\Git\usr\bin\ssh-agent.exe"
+Set-Alias ssh-add "${env:ProgramFiles}\Git\usr\bin\ssh-add.exe"
+Set-Alias ssh "${env:ProgramFiles}\Git\usr\bin\ssh.exe"
 
-Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
-Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.exe"
-Set-Alias rcsi "C:\Program Files (x86)\Microsoft Codename Roslyn CTP\Binaries\rcsi.exe"
-Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
-Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
-Set-Alias rubymine 'C:\Program Files (x86)\JetBrains\RubyMine 4.5.4\bin\rubymine.exe'
+Set-Alias -name notepad++ "${env:ProgramFiles(x86)}\notepad++\notepad++.exe"
+set-Alias linqpad "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
+
+Set-Alias st "${env:ProgramFiles(x86)}\Atlassian\SourceTree\SourceTree.exe"
+Set-Alias 7z "${env:ProgramFiles}\7-Zip\7z.exe"
 
 # Add stuff to path (what's better, adding to path or creating an alias?)
 # vim & gvim
@@ -46,19 +46,24 @@ function prompt {
     return ">"
 }
 
-Enable-GitColors
+# TODO: Switch to this https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
-if((git config --global core.preloadindex) -ne 'true') { git config --global core.preloadindex true }
+$global:GitPromptSettings.EnableStashStatus = $true
 
 Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects
+cd ~\Projects\Repos\AMS-GIT\
+cd ~\Projects\Repos\Eclipse\src\
+
+# Ungit checks if it's already running and kills itself. No need to check for that here.
+#write-host "Launching ungit on Olympus"
+#start-job -ScriptBlock { pushd ~\Projects\Olympus ; ungit }
 
 "Your custom settings are almost complete, my overlord."
-"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', or 'vs2012' command to do this."
+"You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', 'VS2012', or 'vs2013' command to do this."
 
 
 function foo {
@@ -83,23 +88,25 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("old_www_box","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator")][string]$server)
+    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper","ams-build-01.amscorp.net", "ams-tfs-01", "test-eclipse-02")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
     # Note that these are the backup ips.  Not the private ips (which is how the build agent talks to them).
     if($server -eq "www1") { $the_server = "172.27.0.53" }
     if($server -eq "www2") { $the_server = "172.27.0.67" }
-	if($server -eq "old_www_box") { $the_server = "204.144.122.42" }
+	if($server -eq "buildagent1") { $the_server = "204.144.122.42" }
     if($server -eq "orchestrator") { $the_server = "172.27.10.30" }
+    if($server -eq "vmm") { $the_server = "172.27.10.10" }
+    if($server -eq "lansweeper") { $the_server = "172.27.10.12" }
 
     Start-RDP -Server $the_server -Fullscreen
 }
 
 function ssh-to-known-host {
-    param([ValidateSet("blog.fpweb.net")][string]$myHost)
+    param([ValidateSet("fpwebnet@blog.fpweb.net")][string]$myHost)
 
-    if($myHost -eq "blog.fpweb.net") { ssh -l root blog.fpweb.net }
+    if($myHost -eq "fpwebnet@blog.fpweb.net") { ssh fpwebnet@blog.fpweb.net }
     else { write-Host "'$myHost' is not in the list of my known hosts.  Add it to the ssh-to validateset parameter list."}
 }
 
@@ -179,3 +186,17 @@ function Set-FileTime{
 }
 
 New-Alias touch Set-FileTime
+
+function toggle-git {
+  if (test-path .git) {
+    mv .git .gitdisabled
+  }
+  else {
+    if (test-path .gitdisabled) {
+    mv .gitdisabled .git
+    }
+    else {
+      echo "No git repository detected. Are you in the repo root?"
+    }
+  }
+}
