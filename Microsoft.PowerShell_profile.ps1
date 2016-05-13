@@ -20,9 +20,6 @@ set-Alias linqpad "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
 Set-Alias st "${env:ProgramFiles(x86)}\Atlassian\SourceTree\SourceTree.exe"
 Set-Alias 7z "${env:ProgramFiles}\7-Zip\7z.exe"
 
-# Disable git status caching
-$global:GitPromptSettings.StatusCacheSeconds = 0
-
 # Add stuff to path (what's better, adding to path or creating an alias?)
 # vim & gvim
 $env:Path += ";${env:ProgramFiles(x86)}\vim\bin;"
@@ -53,6 +50,7 @@ function prompt {
 # TODO: Switch to this https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
+$global:GitPromptSettings.EnableStashStatus = $true
 
 Pop-Location
 
