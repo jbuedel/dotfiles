@@ -1,6 +1,8 @@
 " Pathogen - loads anything in ~/vimfiles/bundle
 execute pathogen#infect()
 
+" Why isn't solarized working on vim (it looks great on gvim).
+
 " The backup dir should gets the swp and ~ files, hence the next two options are not needed.
 set backupdir=~/vimtmp
 set nobackup
@@ -15,9 +17,6 @@ set number
 " Start vim (but really gvim) maximized
 ":set lines=999 columns=999
 au GUIEnter * simalt ~x
-
-" Keeps the cursor centered vertically on the screen
-set scrolloff=15
 
 " Use all spaces, no tabs
 set tabstop=2 shiftwidth=2 expandtab
@@ -48,3 +47,4 @@ filetype plugin indent on
 
 set shell=powershell
 set shellcmdflag=-command
+

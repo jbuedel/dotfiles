@@ -34,9 +34,6 @@ map <Leader><w> :vsc ReSharper.ReSharper_ExtendSelection<CR>
 map <Leader><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
 
 
-" Keeps the cursor centered vertically on the screen
-set scrolloff=10
-
 " Highlight all matches in a file when searching
 set hlsearch
 
