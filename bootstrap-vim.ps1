@@ -4,6 +4,8 @@ md ~/vimtmp
 # Install Pathogen for vim plugin management
 md ~/vimfiles/autoload 
 md ~/vimfiles/bundle
+
+# Install pathogen.
 # This puts DOS line endings, and vim gets an error when loading!
 (New-Object Net.WebClient).DownloadString("https://tpo.pe/pathogen.vim") > ~/vimfiles/autoload/pathogen.vim
 

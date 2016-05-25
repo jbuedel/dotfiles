@@ -19,7 +19,8 @@ choco install windirstat
 choco install itunes
 choco install conemu
 choco install EthanBrown.ConEmuConfig
-choco install hipchat
+choco install screentogif
+choco install tailblazer
 
 choco install linqpad4
 choco install sysinternals
