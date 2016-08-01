@@ -3,7 +3,7 @@
 	url = git@github.com:jbuedel/posh-josh.git
 [submodule "Modules/project-commands"]
 	path = Modules/project-commands
-	url = git@github.com:jbuedel/project-commands
+	url = git@github.com:jbuedel/project-commands.git
 [submodule "Modules/posh-git"]
 	path = Modules/posh-git
-	url = git@github.com:jbuedel/posh-git
+	url = git@github.com:dahlbyk/posh-git.git

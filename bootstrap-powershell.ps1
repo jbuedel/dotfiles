@@ -34,11 +34,19 @@ if(!(test-path ~\.ssh\id_rsa)){
 	return
 }
 
+if(git status) {}
+else {
+	git clone git@github.com:jbuedel/dotfiles.git .
+	git checkout work-desktop
 
-git clone git@github.com:jbuedel/dotfiles.git .
-git checkout work-desktop
-# Actually fills out the submodules (does not happened automatically for some reason)
-git submodule update --init
+	# Actually fills out the submodules (does not happened automatically for some reason)
+	git submodule update --init
+}
 
 (new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
 install-module PSReadline
+
+write-host "Installing posh-git"
+pushd Modules
+git clone git@github.com:dahlbyk/posh-git.git 
+popd

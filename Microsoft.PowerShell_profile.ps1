@@ -57,7 +57,7 @@ Pop-Location
 
 # put me in my current project directory
 cd ~\Projects\Repos\AMS-GIT\
-cd ~\Projects\Repos\Eclipse\src\
+cd ~\Projects\EclipsePro-Design\src\
 
 # Ungit checks if it's already running and kills itself. No need to check for that here.
 #write-host "Launching ungit on Olympus"
