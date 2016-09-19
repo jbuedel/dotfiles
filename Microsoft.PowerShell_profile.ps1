@@ -56,8 +56,7 @@ Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects\Repos\AMS-GIT\
-cd ~\Projects\Repos\Eclipse\src\
+cd ~\Projects\EclipsePro-Design
 
 # Ungit checks if it's already running and kills itself. No need to check for that here.
 #write-host "Launching ungit on Olympus"
@@ -201,4 +200,14 @@ function toggle-git {
     }
   }
 }
+# Function not alias because you can't use aliases with pipes.
+function which($name)
+{
+    Get-Command $name | Select-Object -ExpandProperty Definition
+}
 
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
