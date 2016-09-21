@@ -201,7 +201,7 @@ function toggle-git {
   }
 }
 # Function not alias because you can't use aliases with pipes.
-function which($name)
+function whence($name)
 {
     Get-Command $name | Select-Object -ExpandProperty Definition
 }
