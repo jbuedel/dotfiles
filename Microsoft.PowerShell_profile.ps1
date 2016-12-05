@@ -56,7 +56,6 @@ Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects\Repos\AMS-GIT\
 cd ~\Projects\EclipsePro-Design\src\
 
 # Ungit checks if it's already running and kills itself. No need to check for that here.
@@ -89,7 +88,7 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper","ams-build-01.amscorp.net", "ams-tfs-01", "test-eclipse-02")][string]$server)
+    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper","ams-jbuedel.amscorp.net","ams-build-01.amscorp.net", "ams-tfs-01", "test-eclipse-02")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
@@ -202,3 +201,9 @@ function toggle-git {
   }
 }
 
+
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
