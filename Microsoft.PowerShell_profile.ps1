@@ -37,11 +37,11 @@ function prompt {
 
     Write-Host (foo) -nonewline
     
-	# This method comes from posh-git and/or posh-hg.
-	Write-VcsStatus    
-	
-	# This line depends on posh-git and posh-josh.
-	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
+    # This method comes from posh-git and/or posh-hg.
+    Write-VcsStatus    
+    
+    # This line depends on posh-git and posh-josh.
+    $Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
 	
     $LASTEXITCODE = $realLASTEXITCODE
     return ">"
@@ -56,14 +56,10 @@ Pop-Location
 
 
 # put me in my current project directory
-#cd ~\Projects\EclipsePro-Design
+cd ~\Projects\
 
 # Use vim bindings
 Set-PSReadlineOption -EditMode Vi
-
-# Ungit checks if it's already running and kills itself. No need to check for that here.
-#write-host "Launching ungit on Olympus"
-#start-job -ScriptBlock { pushd ~\Projects\Olympus ; ungit }
 
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', 'VS2012', or 'vs2013' command to do this."
