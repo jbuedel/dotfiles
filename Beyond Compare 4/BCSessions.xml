@@ -1,1282 +1,1219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Produced by Beyond Compare 4 from Scooter Software -->
 <BCSessions Version="1" MinVersion="1">
+	<TTextCompareSession Value="Stacks">
+		<LastModified Value="2017-02-03 16:05:16"/>
+		<Specs>
+			<Left Value="C:\temp\left.txt"/>
+			<Right Value="C:\temp\right.txt"/>
+		</Specs>
+	</TTextCompareSession>
 	<TSessionFolder>
 		<Items>
 			<TSessionFolder>
 				<Items>
-					<TDirCompareSession Value="AMS.Pathfinder.Updater">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 17:24:30"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-03-03 14:45:46"/>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\Pathfinder\AMS.Pathfinder.Updater"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.01\Pathfinder\AMS.Pathfinder.Updater"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="AMS.Pathfinder.Updater">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 17:09:50"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\Pathfinder\AMS.Pathfinder.Updater"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Updater"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V2.5.3612_UNHASPED_PathfinderUpdate.zip &lt;--> ToHASP">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 12:53:54"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_UNHASPED_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\ToHASP"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V2.5.3612_PathfinderUpdate.zip &lt;--> V2.5.3612_UNHASPED_PathfinderUpdate.zip">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 12:51:30"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_UNHASPED_PathfinderUpdate.zip"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="Topshelf.Nancy &lt;--> Topshelf.Nancy.2">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 11:35:55"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Topshelf.Nancy"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Topshelf.Nancy.2"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V2.5_150918_170825_PathfinderUpdate.zip &lt;--> V2.5.3612_PathfinderUpdate.zip">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 10:38:56"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5_150918_170825_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_PathfinderUpdate.zip"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V2.5_150203_144856_PathfinderUpdate.zip &lt;--> V2.5.3612_PathfinderUpdate.zip">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-05 10:30:23"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5_150203_144856_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5.3612_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TTextMergeSession Value="INSTALL.md">
-						<LastModified Value="2015-11-05 09:16:11"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL_LOCAL_14968.md"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL_REMOTE_14968.md"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL_BASE_14968.md"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\Eclipse\INSTALL.md"/>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_18764.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_18764.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_18764.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
 						</Specs>
 						<State>
 							<InsigIgnored Value="True"/>
 						</State>
 					</TTextMergeSession>
-					<TDirCompareSession Value="Debug &lt;--> tools">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-11-02 16:03:06"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-03-03 14:43:43"/>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\bin\x64\Debug"/>
-							<Right Value="C:\ProgramData\chocolatey\lib\ams-eclipse-server\tools"/>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_29496.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_29496.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_29496.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
 						</Specs>
 						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+							<InsigIgnored Value="True"/>
 						</State>
-					</TDirCompareSession>
-					<TTextCompareSession Value="eclipse-server.nuspec &lt;--> eclipse-agent.nuspec">
-						<LastModified Value="2015-10-30 19:26:11"/>
+					</TTextMergeSession>
+					<TTextMergeSession Value="MiscExt.cs">
+						<LastModified Value="2017-03-03 14:39:20"/>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\eclipse-server.nuspec"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\eclipse-agent.nuspec"/>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Core\Commons\MiscExt_LOCAL_8820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Core\Commons\MiscExt_REMOTE_8820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Core\Commons\MiscExt_BASE_8820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Core\Commons\MiscExt.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-03-03 14:39:10"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_8820.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_8820.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_8820.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-03-03 14:34:49"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_26132.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_26132.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_26132.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-03-03 14:29:54"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_7372.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_7372.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_7372.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-02-27 18:27:33"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_9344.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_9344.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_9344.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ClientDashboardRealtimeUpdatePublisher.cs">
+						<LastModified Value="2017-02-27 18:22:36"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_LOCAL_2988.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_REMOTE_2988.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher_BASE_2988.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ClientDashboardRealtimeUpdatePublisher.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleRepository.cs">
+						<LastModified Value="2017-02-24 17:28:56"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_LOCAL_804.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_REMOTE_804.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_BASE_804.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="JobStateIndex.cs">
+						<LastModified Value="2017-02-24 17:28:44"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex_LOCAL_804.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex_REMOTE_804.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex_BASE_804.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleEstimator.cs">
+						<LastModified Value="2017-02-24 15:22:46"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_LOCAL_11788.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_REMOTE_11788.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_BASE_11788.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleEstimator.cs">
+						<LastModified Value="2017-02-24 15:15:49"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_LOCAL_19388.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_REMOTE_19388.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_BASE_19388.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="PlannedDowntimeInstance.cs">
+						<LastModified Value="2017-02-24 15:13:15"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance_LOCAL_19388.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance_REMOTE_19388.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance_BASE_19388.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleEstimator.cs">
+						<LastModified Value="2017-02-24 14:59:11"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_LOCAL_3796.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_REMOTE_3796.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_BASE_3796.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleEstimator.cs">
+						<LastModified Value="2017-02-24 14:54:44"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_LOCAL_4612.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_REMOTE_4612.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_BASE_4612.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="PlannedDowntimeInstance.cs">
+						<LastModified Value="2017-02-24 14:47:53"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance_LOCAL_4612.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance_REMOTE_4612.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance_BASE_4612.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\PlannedDowntimeInstance.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleRepository.cs">
+						<LastModified Value="2017-02-24 14:32:17"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_LOCAL_19092.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_REMOTE_19092.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_BASE_19092.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="orders-list.controller.ts">
+						<LastModified Value="2017-02-24 06:29:07"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="downtimeRepeatPopup.controller.ts">
+						<LastModified Value="2017-02-24 06:27:57"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="downtime-popup.controller.ts">
+						<LastModified Value="2017-02-24 06:25:35"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="timeline-block-directive.ts">
+						<LastModified Value="2017-02-24 06:24:37"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="eclipse-pro-helper.service.ts">
+						<LastModified Value="2017-02-24 06:24:22"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="downtimedata.service.ts">
+						<LastModified Value="2017-02-24 06:24:07"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="dashboard.filter.ts">
+						<LastModified Value="2017-02-24 06:23:21"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_LOCAL_12036.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_REMOTE_12036.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_BASE_12036.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="dashboard.filter.ts">
+						<LastModified Value="2017-02-23 20:44:33"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_LOCAL_18012.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_REMOTE_18012.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_BASE_18012.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="orders-list.controller.ts">
+						<LastModified Value="2017-02-22 14:15:47"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller_LOCAL_8096.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller_REMOTE_8096.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller_BASE_8096.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\orders\list\orders-list.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="coil-types.controller.ts">
+						<LastModified Value="2017-02-22 14:15:19"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\inventory\coil-types\coil-types.controller_LOCAL_8096.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\inventory\coil-types\coil-types.controller_REMOTE_8096.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\inventory\coil-types\coil-types.controller_BASE_8096.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\inventory\coil-types\coil-types.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="timeline-block-directive.ts">
+						<LastModified Value="2017-02-22 14:14:02"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_LOCAL_8096.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_REMOTE_8096.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_BASE_8096.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="downtimeRepeatPopup.controller.ts">
+						<LastModified Value="2017-02-20 09:53:30"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller_LOCAL_8380.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller_REMOTE_8380.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller_BASE_8380.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtimeRepeatPopup.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="downtime-popup.controller.ts">
+						<LastModified Value="2017-02-20 09:52:08"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller_LOCAL_8380.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller_REMOTE_8380.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller_BASE_8380.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\downtime-popup.controller.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="timeline-block-directive.ts">
+						<LastModified Value="2017-02-20 09:51:13"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_LOCAL_8380.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_REMOTE_8380.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive_BASE_8380.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\dashboards\schedule\directives\timeline-block-directive.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="eclipse-pro-helper.service.ts">
+						<LastModified Value="2017-02-20 09:49:47"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service_LOCAL_8380.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service_REMOTE_8380.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service_BASE_8380.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\eclipse-pro-helper\eclipse-pro-helper.service.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="downtimedata.service.ts">
+						<LastModified Value="2017-02-20 09:49:04"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service_LOCAL_8380.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service_REMOTE_8380.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service_BASE_8380.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\downtimedata.service.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="dashboard.filter.ts">
+						<LastModified Value="2017-02-20 09:47:39"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_LOCAL_8380.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_REMOTE_8380.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter_BASE_8380.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\filters\dashboard.filter.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="clientdatahub.service.ts">
+						<LastModified Value="2017-02-14 06:54:31"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\hub\clientdatahub.service_LOCAL_4692.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\hub\clientdatahub.service_REMOTE_4692.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\hub\clientdatahub.service_BASE_4692.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\hub\clientdatahub.service.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="clientdatahub.service.ts.js &lt;--> clientdatahub.service.js">
+						<LastModified Value="2017-02-13 20:02:27"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\hub\clientdatahub.service.ts.js"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\hub\clientdatahub.service.js"/>
 						</Specs>
 						<State>
 							<InsigIgnored Value="True"/>
 						</State>
 					</TTextCompareSession>
-					<TVerCompareSession Value="AMS.Eclipse.Agent.exe">
-						<LastModified Value="2015-10-30 18:15:29"/>
+					<TTextMergeSession Value="ProductionRecordSync.cs">
+						<LastModified Value="2017-02-09 11:05:00"/>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent.exe"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\bin\x86\Debug\AMS.Eclipse.Agent.exe"/>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ProductionRecordSync_LOCAL_3832.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ProductionRecordSync_REMOTE_3832.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ProductionRecordSync_BASE_3832.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Services\ProductionRecordSync.cs"/>
 						</Specs>
-					</TVerCompareSession>
-					<TTextMergeSession Value="ApplicationManager.cs">
-						<LastModified Value="2015-10-30 17:22:11"/>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleRepository.cs">
+						<LastModified Value="2017-02-08 08:56:03"/>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_LOCAL_5136.cs"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_REMOTE_5136.cs"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_BASE_5136.cs"/>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_LOCAL_1980.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_REMOTE_1980.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository_BASE_1980.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\ScheduleRepository.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="JobStateIndex.cs">
+						<LastModified Value="2017-02-08 08:55:25"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex_LOCAL_1980.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex_REMOTE_1980.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex_BASE_1980.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Data\Indexes\JobStateIndex.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="PlannedDowntimeTests.cs">
+						<LastModified Value="2017-02-03 17:21:11"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business.Tests\Schedule\PlannedDowntimeTests_LOCAL_17564.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business.Tests\Schedule\PlannedDowntimeTests_REMOTE_17564.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business.Tests\Schedule\PlannedDowntimeTests_BASE_17564.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business.Tests\Schedule\PlannedDowntimeTests.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="dashboarddata.service.js">
+						<LastModified Value="2017-02-02 10:07:32"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\dashboarddata.service_LOCAL_25080.js"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\dashboarddata.service_REMOTE_25080.js"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\dashboarddata.service_BASE_25080.js"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\core\services\dashboarddata.service.js"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="AMS.Eclipse.Agent.csproj">
+						<LastModified Value="2017-01-26 08:58:26"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Agent\AMS.Eclipse.Agent_LOCAL_612.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Agent\AMS.Eclipse.Agent_REMOTE_612.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Agent\AMS.Eclipse.Agent_BASE_612.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Agent\AMS.Eclipse.Agent.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleEstimator.cs">
+						<LastModified Value="2017-01-25 09:47:18"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_LOCAL_11824.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_REMOTE_11824.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_BASE_11824.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-24 08:37:56"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_LOCAL_21884.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_REMOTE_21884.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_BASE_21884.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="SimpleWebViewer.csproj">
+						<LastModified Value="2017-01-24 08:37:37"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_LOCAL_21884.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_REMOTE_21884.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_BASE_21884.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-24 08:36:19"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_LOCAL_21884.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_REMOTE_21884.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_BASE_21884.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="LogStreamMetaData.cs">
+						<LastModified Value="2017-01-24 08:35:08"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\LogStreamMetaData_LOCAL_21884.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\LogStreamMetaData_REMOTE_21884.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\LogStreamMetaData_BASE_21884.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\LogStreamMetaData.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="DiagnosticStreamParser.cs">
+						<LastModified Value="2017-01-24 07:22:39"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\DiagnosticStreamParser_LOCAL_21884.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\DiagnosticStreamParser_REMOTE_21884.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\DiagnosticStreamParser_BASE_21884.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\DiagnosticStreamParser.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ScheduleEstimator.cs">
+						<LastModified Value="2017-01-23 15:27:47"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_LOCAL_16088.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_REMOTE_16088.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator_BASE_16088.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\AMS.Eclipse.Business\Schedule\ScheduleEstimator.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="signals-selector.component.ts">
+						<LastModified Value="2017-01-21 19:19:04"/>
+						<Specs>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Edge.Diagnostics.Client\src\app\diagnostics\signal-view\signals-selector.component.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Pathfinder_Pathfinder_4.X_-_CI_4.00.00.874.log &lt;--> msbuild.log">
+						<LastModified Value="2017-01-20 15:04:54"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Downloads\Pathfinder_Pathfinder_4.X_-_CI_4.00.00.874.log"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\msbuild.log"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextMergeSession Value="AMS.Pathfinder.Main.csproj">
+						<LastModified Value="2017-01-19 12:18:30"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_LOCAL_18884.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_REMOTE_18884.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_BASE_18884.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ApplicationManager.cs">
+						<LastModified Value="2017-01-19 09:56:37"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_LOCAL_5908.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_REMOTE_5908.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_BASE_5908.cs"/>
 							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager.cs"/>
 						</Specs>
 						<State>
 							<InsigIgnored Value="True"/>
 						</State>
 					</TTextMergeSession>
+					<TTextMergeSession Value="AMS.Pathfinder.Main.csproj">
+						<LastModified Value="2017-01-19 09:55:55"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_LOCAL_4992.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_REMOTE_4992.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_BASE_4992.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ApplicationManager.cs">
+						<LastModified Value="2017-01-19 09:55:00"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_LOCAL_15628.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_REMOTE_15628.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_BASE_15628.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="AMS.Pathfinder.Main.csproj">
+						<LastModified Value="2017-01-19 09:54:23"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_LOCAL_15628.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_REMOTE_15628.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_BASE_15628.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="packages.config">
+						<LastModified Value="2017-01-19 09:50:53"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\packages_LOCAL_18860.config"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\packages_REMOTE_18860.config"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\packages_BASE_18860.config"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\packages.config"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="ApplicationManager.cs">
+						<LastModified Value="2017-01-19 09:50:34"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_LOCAL_18860.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_REMOTE_18860.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager_BASE_18860.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\BusinessObjectManagers\ApplicationManager.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="AMS.Pathfinder.Main.csproj">
+						<LastModified Value="2017-01-19 09:48:40"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_LOCAL_18860.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_REMOTE_18860.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main_BASE_18860.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Main\AMS.Pathfinder.Main.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Diagnostics.sln">
+						<LastModified Value="2017-01-17 10:06:26"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_LOCAL_17392.sln"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_REMOTE_17392.sln"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_BASE_17392.sln"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics.sln"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="UdpAsyncStreamListener.cs">
+						<LastModified Value="2017-01-09 14:51:42"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_LOCAL_24732.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_REMOTE_24732.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_BASE_24732.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-09 14:51:16"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_LOCAL_24732.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_REMOTE_24732.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_BASE_24732.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="SimpleWebViewer.csproj">
+						<LastModified Value="2017-01-09 14:49:53"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_LOCAL_24732.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_REMOTE_24732.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_BASE_24732.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="StreamManager.cs">
+						<LastModified Value="2017-01-09 14:48:31"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_LOCAL_24732.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_REMOTE_24732.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_BASE_24732.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-09 14:48:22"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_LOCAL_24732.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_REMOTE_24732.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_BASE_24732.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="DataHub.cs">
+						<LastModified Value="2017-01-09 14:44:59"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_LOCAL_24732.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_REMOTE_24732.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_BASE_24732.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Diagnostics.sln">
+						<LastModified Value="2017-01-09 14:44:30"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_LOCAL_24732.sln"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_REMOTE_24732.sln"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_BASE_24732.sln"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics.sln"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-09 14:42:47"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_LOCAL_24732.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_REMOTE_24732.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_BASE_24732.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="UdpAsyncStreamListener.cs">
+						<LastModified Value="2017-01-06 23:02:16"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_LOCAL_26120.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_REMOTE_26120.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_BASE_26120.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-06 23:01:45"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_LOCAL_26120.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_REMOTE_26120.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_BASE_26120.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="SimpleWebViewer.csproj">
+						<LastModified Value="2017-01-06 23:00:03"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_LOCAL_26120.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_REMOTE_26120.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_BASE_26120.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="StreamManager.cs">
+						<LastModified Value="2017-01-06 22:59:12"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_LOCAL_26120.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_REMOTE_26120.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_BASE_26120.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-06 22:58:52"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_LOCAL_26120.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_REMOTE_26120.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_BASE_26120.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="DataHub.cs">
+						<LastModified Value="2017-01-06 22:55:46"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_LOCAL_26120.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_REMOTE_26120.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_BASE_26120.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Diagnostics.sln">
+						<LastModified Value="2017-01-06 22:55:22"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_LOCAL_26120.sln"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_REMOTE_26120.sln"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_BASE_26120.sln"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics.sln"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-06 22:53:48"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_LOCAL_26120.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_REMOTE_26120.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_BASE_26120.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="UdpAsyncStreamListener.cs">
+						<LastModified Value="2017-01-06 22:37:53"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_LOCAL_29892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_REMOTE_29892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener_BASE_29892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UdpAsyncListener\UdpAsyncStreamListener.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-06 22:37:33"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_LOCAL_29892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_REMOTE_29892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program_BASE_29892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="SimpleWebViewer.csproj">
+						<LastModified Value="2017-01-06 22:35:01"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_LOCAL_29892.csproj"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_REMOTE_29892.csproj"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer_BASE_29892.csproj"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\SimpleWebViewer.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="StreamManager.cs">
+						<LastModified Value="2017-01-06 22:33:51"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_LOCAL_29892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_REMOTE_29892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager_BASE_29892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Services\StreamManager.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-06 22:33:11"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_LOCAL_29892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_REMOTE_29892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program_BASE_29892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="DataHub.cs">
+						<LastModified Value="2017-01-06 22:29:08"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_LOCAL_29892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_REMOTE_29892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub_BASE_29892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Hubs\DataHub.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Diagnostics.sln">
+						<LastModified Value="2017-01-06 22:27:57"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_LOCAL_29892.sln"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_REMOTE_29892.sln"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_BASE_29892.sln"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics.sln"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="Program.cs">
+						<LastModified Value="2017-01-06 22:26:53"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_LOCAL_29892.cs"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_REMOTE_29892.cs"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program_BASE_29892.cs"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\BinaryParser\Program.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="dc-pareto-chart.directive.ts">
+						<LastModified Value="2017-01-05 10:37:24"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive_LOCAL_23896.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive_REMOTE_23896.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive_BASE_23896.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value="dc-pareto-chart.directive.ts">
+						<LastModified Value="2017-01-05 10:08:40"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive_LOCAL_12560.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive_REMOTE_12560.ts"/>
+							<Center Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive_BASE_12560.ts"/>
+							<Output Value="C:\Users\jbuedel\Projects\EclipsePro-Design\src\Eclipse.UI\src\app\main\apps\explorer\directives\dc-pareto-chart.directive.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="timeline-x-axis.component.ts &lt;--> timeline-x-axis.directive.ts">
+						<LastModified Value="2016-12-16 15:19:10"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Edge.Diagnostics.Client\src\app\diagnostics\signal-view\timeline-x-axis\timeline-x-axis.component.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Edge.Diagnostics.Client\src\app\diagnostics\signal-view\timeline-x-axis.directive.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="timeline-x-axis-2.directive.ts &lt;--> timeline-x-axis.component.ts">
+						<LastModified Value="2016-12-16 15:17:14"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Edge.Diagnostics.Client\src\app\diagnostics\signal-view\timeline-x-axis-2.directive.ts"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Edge.Diagnostics.Client\src\app\diagnostics\signal-view\timeline-x-axis\timeline-x-axis.component.ts"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="V2.5.3891_UNHASPED_PathfinderUpdate.zip &lt;--> V2.5.3900_UNHASPED_PathfinderUpdate.zip">
+						<Filters>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\;-.git\;-.tmp\"/>
+						</Filters>
+						<LastModified Value="2016-12-16 14:59:02"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Downloads\V2.5.3891_UNHASPED_PathfinderUpdate.zip"/>
+							<Right Value="C:\Users\jbuedel\Downloads\V2.5.3900_UNHASPED_PathfinderUpdate.zip"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value=".gitignore">
+						<LastModified Value="2016-12-16 13:02:37"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\.gitignore"/>
+							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\.gitignore"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value=".gitignore">
+						<LastModified Value="2016-12-09 09:10:14"/>
+						<Specs>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\ng2coreTest\.gitignore"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Enums.json">
+						<LastModified Value="2016-12-09 08:36:57"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\bin\Debug\Enums.json"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\Enums.json"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Resources.resx &lt;--> Resourcessdfdsf.resx">
+						<LastModified Value="2016-12-06 15:54:10"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\Properties\Resources.resx"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStreamParser\Properties\Resourcessdfdsf.resx"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="AssemblyInfo.cs">
+						<LastModified Value="2016-12-06 15:50:37"/>
+						<Specs>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStream.Tests\Properties\AssemblyInfo.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="DiagnosticStream.Tests.csproj">
+						<LastModified Value="2016-12-06 15:50:31"/>
+						<Specs>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStream.Tests\DiagnosticStream.Tests.csproj"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Class1.cs">
+						<LastModified Value="2016-12-06 15:50:29"/>
+						<Specs>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\DiagnosticStream.Tests\Class1.cs"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextMergeSession Value="Diagnostics.sln">
+						<LastModified Value="2016-12-06 15:48:22"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_LOCAL_4784.sln"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_REMOTE_4784.sln"/>
+							<Center Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics_BASE_4784.sln"/>
+							<Output Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\Diagnostics.sln"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="Enums.json">
+						<LastModified Value="2016-12-05 13:48:41"/>
+						<Specs>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\ConsolidateLogData\Enums.json"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\SimpleWebViewer\Enums.json"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextCompareSession>
 					<TDirCompareSession Value="Debug">
 						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\;-.git\;-.tmp\"/>
 						</Filters>
-						<LastModified Value="2015-10-30 17:06:42"/>
+						<LastModified Value="2016-11-29 14:35:29"/>
 						<Rules>
 							<ExpandAllOnLoad Value="True"/>
 							<ExpandDiffsOnLoad Value="True"/>
 							<UseContentComparison Value="True"/>
 						</Rules>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\Deliverables\Debug"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.01\Deliverables\Debug"/>
+							<Left Value="C:\Users\jbuedel\Projects\AMS.Diagnostics\UDPStreamTester\bin\Debug"/>
+							<Right Value="C:\Users\jbuedel\Downloads\UDPDiag\UDPStreamTester\bin\Debug"/>
 						</Specs>
 						<State>
 							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 						</State>
 					</TDirCompareSession>
-					<TTextCompareSession Value="AMS.Pathfinder - v2.01.sln &lt;--> AMS.Pathfinder - v2.5.sln">
-						<LastModified Value="2015-10-30 13:50:35"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\AMS.Pathfinder - v2.01.sln"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\AMS.Pathfinder - v2.5.sln"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<THexCompareSession Value="base64-decoded.bin &lt;--> Alive.1.0.vsix">
-						<LastModified Value="2015-10-30 13:10:16"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Downloads\base64-decoded.bin"/>
-							<Right Value="C:\Users\jbuedel\Downloads\Alive.1.0.vsix"/>
-						</Specs>
-					</THexCompareSession>
-					<TTextCompareSession Value="Pathfinder_PathfinderEdge_PathfinderEdge1.xml &lt;--> Pathfinder_PathfinderEdge_PathfinderEdgeDevelop.xml">
-						<LastModified Value="2015-10-26 16:57:43"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1.xml"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdgeDevelop.xml"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextCompareSession Value="Pathfinder_Edge_Pathfinder_Edge_-_Staging_0.0.0.3597.log &lt;--> Pathfinder_Edge_Pathfinder_Edge_-_Production_0.0.0.3581.log">
-						<LastModified Value="2015-10-26 16:55:01"/>
-						<Rules>
-							<ElementSigs>
-								<Item>
-									<ElementStr Value="&#2;LineNum"/>
-									<ValueBool Value="True"/>
-								</Item>
-							</ElementSigs>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Downloads\Pathfinder_Edge_Pathfinder_Edge_-_Staging_0.0.0.3597.log"/>
-							<Right Value="C:\Users\jbuedel\Downloads\Pathfinder_Edge_Pathfinder_Edge_-_Production_0.0.0.3581.log"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdge1.xml">
-						<LastModified Value="2015-10-26 12:16:29"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1_LOCAL_14712.xml"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1_REMOTE_14712.xml"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\vcsRoots\Pathfinder_PathfinderEdge_PathfinderEdge1.xml"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdgeProduction.xml">
-						<LastModified Value="2015-10-26 12:15:40"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeProduction_LOCAL_14712.xml"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeProduction_REMOTE_14712.xml"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeProduction.xml"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate.xml">
-						<LastModified Value="2015-10-26 12:15:27"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate_LOCAL_14712.xml"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate_REMOTE_14712.xml"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCiDeployTemplate.xml"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="Pathfinder_PathfinderEdge_PathfinderEdgeCi.xml">
-						<LastModified Value="2015-10-26 12:14:41"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCi_LOCAL_14712.xml"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCi_REMOTE_14712.xml"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\PathfinderEdge\.teamcity\Pathfinder_PathfinderEdge\buildTypes\Pathfinder_PathfinderEdge_PathfinderEdgeCi.xml"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextCompareSession Value="stderr.txt &lt;--> stderr-list.txt">
-						<LastModified Value="2015-10-23 09:15:20"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\choco\src\stderr.txt"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\choco\src\stderr-list.txt"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextCompareSession Value="out.txt &lt;--> stderr.txt">
-						<LastModified Value="2015-10-23 09:13:18"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\choco\src\out.txt"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\choco\src\stderr.txt"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TDirCompareSession Value="v2 &lt;--> v2.bak">
-						<LastModified Value="2015-10-22 13:41:51"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\C\v2"/>
-							<Right Value="C:\C\v2.bak"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value=".teamcity">
+					<TDirCompareSession Value="UDPDiag &lt;--> AMS.Diagnostics">
 						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\;-.git\;-.tmp\"/>
 						</Filters>
-						<LastModified Value="2015-10-16 19:17:46"/>
+						<LastModified Value="2016-11-29 14:18:34"/>
 						<Rules>
 							<ExpandAllOnLoad Value="True"/>
 							<ExpandDiffsOnLoad Value="True"/>
 							<UseContentComparison Value="True"/>
 						</Rules>
 						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\.teamcity"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\.teamcity"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="chocolatey &lt;--> chocolatey.josh">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-16 16:20:22"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\ProgramData\chocolatey"/>
-							<Right Value="C:\ProgramData\chocolatey.josh"/>
+							<Left Value="C:\Users\jbuedel\Downloads\UDPDiag"/>
+							<Right Value="C:\Users\jbuedel\Projects\AMS.Diagnostics"/>
 						</Specs>
 						<State>
 							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
 						</State>
 					</TDirCompareSession>
-					<TTextCompareSession Value="eclipse-agent.nuspec &lt;--> eclipse-server.nuspec">
-						<LastModified Value="2015-10-16 12:07:50"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\eclipse-agent.nuspec"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\eclipse-server.nuspec"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextCompareSession Value="chocolateyinstall.ps1 &lt;--> chocolateyuninstall.ps1">
-						<LastModified Value="2015-10-15 17:36:21"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\tools\chocolateyinstall.ps1"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\tools\chocolateyuninstall.ps1"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextCompareSession Value="chocolateyinstall.ps1 &lt;--> chocolateyuninstall.ps1">
-						<LastModified Value="2015-10-15 17:35:16"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\tools\chocolateyinstall.ps1"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Agent\tools\chocolateyuninstall.ps1"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TDirCompareSession Value="Eclipse.Agent &lt;--> Eclipse.Agent.portable">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-15 16:39:48"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent.portable"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="chocolatey &lt;--> chocolateyauto">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-15 15:39:59"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolatey"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolateyauto"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="Eclipse.Agent.portable &lt;--> Eclipse.Agent.install">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-15 15:39:39"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent.portable"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\Eclipse.Agent\Eclipse.Agent.install"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="chocolateyauto &lt;--> chocolateyauto3">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-15 15:27:54"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolateyauto"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolateyauto3"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="chocolatey &lt;--> chocolatey3">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-15 15:23:45"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolatey"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\chocolateytemplates\_templates\chocolatey3"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TTextCompareSession Value="5225BB.S19 &lt;--> 5223BB.S19">
-						<LastModified Value="2015-10-14 09:16:34"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Downloads\2.05.01_PathfinderUpdate\5225BB.S19"/>
-							<Right Value="C:\Users\jbuedel\Downloads\2.05.01_PathfinderUpdate\5223BB.S19"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TDirCompareSession Value="Pathfinder.v3.X &lt;--> v2.5">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
-						</Filters>
-						<LastModified Value="2015-10-12 10:34:54"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="Pathfinder.v3.X &lt;--> v3.X">
-						<Filters>
-							<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\"/>
-						</Filters>
-						<LastModified Value="2015-10-12 10:34:09"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v3.X"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TTextCompareSession Value=".gitconfig &lt;--> .gitconfig.bak">
-						<LastModified Value="2015-10-08 10:54:57"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\.gitconfig"/>
-							<Right Value="C:\Users\jbuedel\.gitconfig.bak"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextMergeSession Value="AMS.Eclipse.Server.csproj">
-						<LastModified Value="2015-10-08 10:20:18"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server_LOCAL_3388.csproj"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server_REMOTE_3388.csproj"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server_BASE_3388.csproj"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\Eclipse\src\AMS.Eclipse.Server\AMS.Eclipse.Server.csproj"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TVerCompareSession Value="PathfinderUpdater.exe">
-						<LastModified Value="2015-10-02 17:36:35"/>
-						<Specs>
-							<Left Value="C:\Program Files\AMS Controls\Utility\PathfinderUpdater.exe"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\Deliverables\Debug\PathfinderUpdater.exe"/>
-						</Specs>
-					</TVerCompareSession>
-					<THexCompareSession Value="DatabaseUpdateManagerTests.v2.25.SDF &lt;--> Pathfinder.SDF">
-						<LastModified Value="2015-10-02 11:16:12"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.v2.25.SDF"/>
-							<Right Value="C:\Users\jbuedel\Downloads\Pathfinder.SDF"/>
-						</Specs>
-					</THexCompareSession>
-					<TDirCompareSession Value="v2.01 &lt;--> v2.5">
-						<Filters>
-							<NameFilter Value="-*sln.ide\;-Bin\;-Obj\"/>
-						</Filters>
-						<LastModified Value="2015-09-30 16:22:00"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-							<UseContentComparison Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.01"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TTextCompareSession Value="NLog.config">
-						<LastModified Value="2015-08-17 11:11:25"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v2.5\Deliverables\Debug\NLog.config"/>
-							<Right Value="C:\Users\jbuedel\Projects\Workspaces\AMS\Pathfinder\v3.X\Deliverables\Debug\NLog.config"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextCompareSession>
-					<TTextMergeSession Value="AMS.Pathfinder.Data.Tests.csproj">
-						<LastModified Value="2015-08-17 10:13:37"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\AMS.Pathfinder.Data.Tests.csproj.LOCAL.4632.csproj"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\AMS.Pathfinder.Data.Tests.csproj.REMOTE.4632.csproj"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\AMS.Pathfinder.Data.Tests.csproj"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AMS.Pathfinder - v3.sln">
-						<LastModified Value="2015-08-17 10:13:15"/>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln.LOCAL.4632.sln"/>
-							<Right Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln.REMOTE.4632.sln"/>
-							<Center Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln.BASE.4632.sln"/>
-							<Output Value="C:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseConnectionManager.cs">
-						<LastModified Value="2015-08-17 09:16:18"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs.LOCAL.4052.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs.REMOTE.4052.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs.BASE.4052.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ProfileDAC.cs">
-						<LastModified Value="2015-08-17 09:15:25"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs.LOCAL.4052.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs.REMOTE.4052.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs.BASE.4052.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AMS.Pathfinder.Data.csproj">
-						<LastModified Value="2015-08-14 16:00:51"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj.LOCAL.4052.csproj"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj.REMOTE.4052.csproj"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj.BASE.4052.csproj"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AssemblyInfo.cs">
-						<LastModified Value="2015-08-14 16:00:00"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\Properties\AssemblyInfo.cs.LOCAL.4052.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\Properties\AssemblyInfo.cs.REMOTE.4052.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\Properties\AssemblyInfo.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AMS.Pathfinder.Data.Tests.csproj">
-						<LastModified Value="2015-08-14 15:59:50"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\AMS.Pathfinder.Data.Tests.csproj.LOCAL.4052.csproj"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\AMS.Pathfinder.Data.Tests.csproj.REMOTE.4052.csproj"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\AMS.Pathfinder.Data.Tests.csproj"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="AMS.Pathfinder - v3.sln">
-						<LastModified Value="2015-08-14 15:57:23"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln.LOCAL.4052.sln"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln.REMOTE.4052.sln"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln.BASE.4052.sln"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder - v3.sln"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseUpdateManagerTests.cs">
-						<LastModified Value="2015-08-14 15:11:36"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.LOCAL.3236.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.REMOTE.3236.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.BASE.3236.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TDirCompareSession Value="V3_3.02.00.87_PathfinderUpdate.zip &lt;--> V3_3.01.09.3430_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-14 15:07:51"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Downloads\V3_3.02.00.87_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3430_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TTextMergeSession Value="DatabaseUpdateManager.cs">
-						<LastModified Value="2015-08-14 14:58:40"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.LOCAL.9676.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.REMOTE.9676.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.BASE.9676.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseUpdateManagerTests.cs">
-						<LastModified Value="2015-08-14 14:55:46"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.LOCAL.10512.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.REMOTE.10512.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs.BASE.10512.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data.Tests\DatabaseUpdateManagerTests.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TDirCompareSession Value="V2.5.3417_PathfinderUpdate.zip &lt;--> V2.5_150203_144856_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 15:59:27"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="C:\Users\jbuedel\Downloads\V2.5.3417_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5_150203_144856_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V2.5_150203_144856_PathfinderUpdate.zip &lt;--> V3_3.01.09.3430_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 15:59:27"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V2.5\V2.5_150203_144856_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3430_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V3_150701_180848_PathfinderUpdate.zip &lt;--> V3_3.01.09.3430_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 13:57:39"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_150701_180848_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3430_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V3_3.01.09.3425_PathfinderUpdate.zip &lt;--> V3_3.01.09.3430_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 13:57:17"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3425_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3430_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TTextMergeSession Value="AMS.Pathfinder.Data.csproj">
-						<LastModified Value="2015-08-13 13:53:12"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj.LOCAL.6868.csproj"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj.REMOTE.6868.csproj"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj.BASE.6868.csproj"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\AMS.Pathfinder.Data.csproj"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TDirCompareSession Value="V3_3.01.08.3421_PathfinderUpdate.zip &lt;--> V3_3.01.08.3357_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 10:44:20"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.08.3421_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.08.3357_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V3_3.01.09.3425_PathfinderUpdate.zip &lt;--> V3_3.01.09.3429_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 10:44:19"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3425_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.09.3429_PathfinderUpdate.zip"/>
-						</Specs>
-						<State>
-							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
-						</State>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V3_3.01.07.3319_PathfinderUpdate.zip &lt;--> V3_3.01.07.3348_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 10:00:48"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.07.3319_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.07.3348_PathfinderUpdate.zip"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V3_3.01.07.3348_PathfinderUpdate.zip &lt;--> V3_3.01.07.3357_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 10:00:38"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.07.3348_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.07.3357_PathfinderUpdate.zip"/>
-						</Specs>
-					</TDirCompareSession>
-					<TDirCompareSession Value="V3_3.01.07.3357_PathfinderUpdate.zip &lt;--> V3_3.01.08.3357_PathfinderUpdate.zip">
-						<LastModified Value="2015-08-13 10:00:31"/>
-						<Rules>
-							<ExpandAllOnLoad Value="True"/>
-							<ExpandDiffsOnLoad Value="True"/>
-						</Rules>
-						<Specs>
-							<Left Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.07.3357_PathfinderUpdate.zip"/>
-							<Right Value="N:\Engineering\Pathfinder\ToRelease\V3\V3_3.01.08.3357_PathfinderUpdate.zip"/>
-						</Specs>
-					</TDirCompareSession>
-					<TTextMergeSession Value="ParameterCollectionThalmann.cs">
-						<LastModified Value="2015-08-12 12:39:05"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.LOCAL.9704.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.REMOTE.9704.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.BASE.9704.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionBase.cs">
-						<LastModified Value="2015-08-12 12:37:18"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.LOCAL.4712.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.REMOTE.4712.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs.BASE.4712.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionBase.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="FoldingSolution.cs">
-						<LastModified Value="2015-08-12 12:32:32"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.LOCAL.8360.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.REMOTE.8360.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs.BASE.8360.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions\FoldingSolution.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseUpdateManager.cs">
-						<LastModified Value="2015-08-12 12:30:17"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.LOCAL.7448.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.REMOTE.7448.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.BASE.7448.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeneralInformation.cs">
-						<LastModified Value="2015-08-12 12:24:34"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.5704.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.5704.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.5704.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeometryCsvProcessor.cs">
-						<LastModified Value="2015-08-12 12:06:08"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Utilities\CsvProcessing\GeometryCsvProcessor.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="RetractOptimizationTests.cs">
-						<LastModified Value="2015-08-12 12:05:28"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\RetractOptimizationTests.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="LoadProfilesDataTests.cs">
-						<LastModified Value="2015-08-12 12:03:41"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\LoadProfilesDataTests.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="CompareOldAndNewProfilesTest.cs">
-						<LastModified Value="2015-08-12 12:01:11"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.GaugingSolutions.Tests\CompareOldAndNewProfilesTest.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="CommonDatabaseUtilities.cs">
-						<LastModified Value="2015-08-12 11:57:17"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\SQL\CommonDatabaseUtilities.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\SQL\CommonDatabaseUtilities.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\SQL\CommonDatabaseUtilities.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\SQL\CommonDatabaseUtilities.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="TempDatabaseConnectionManager.cs">
-						<LastModified Value="2015-08-12 11:56:41"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\TempDatabaseConnectionManager.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\TempDatabaseConnectionManager.cs.REMOTE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\TempDatabaseConnectionManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseStoreManager.cs">
-						<LastModified Value="2015-08-12 11:55:48"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseStoreManager.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseStoreManager.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseStoreManager.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseStoreManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseLoadManager.cs">
-						<LastModified Value="2015-08-12 11:54:37"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseLoadManager.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseLoadManager.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseLoadManager.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseLoadManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseImportManager.cs">
-						<LastModified Value="2015-08-12 11:52:35"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseImportManager.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseImportManager.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseImportManager.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseImportManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseConnectionManager.cs">
-						<LastModified Value="2015-08-12 11:52:08"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Managers\DatabaseConnectionManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="DatabaseUpdateManager.cs">
-						<LastModified Value="2015-08-12 11:51:36"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DatabaseUpdater\DatabaseUpdateManager.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeneralInformation.cs">
-						<LastModified Value="2015-08-12 11:47:17"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataObjects\GeneralInformation.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="SequenceStepDAC.cs">
-						<LastModified Value="2015-08-12 11:40:28"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\SequenceStepDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\SequenceStepDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\SequenceStepDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\SequenceStepDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="RunStatisticsDAC.cs">
-						<LastModified Value="2015-08-12 11:40:24"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\RunStatisticsDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\RunStatisticsDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\RunStatisticsDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\RunStatisticsDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ProfileDAC.cs">
-						<LastModified Value="2015-08-12 11:40:20"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ProfileCategoryDAC.cs">
-						<LastModified Value="2015-08-12 11:40:15"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileCategoryDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileCategoryDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileCategoryDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ProfileCategoryDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterDAC.cs">
-						<LastModified Value="2015-08-12 11:40:11"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ParameterDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ParameterDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ParameterDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\ParameterDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="MaintenanceLogDAC.cs">
-						<LastModified Value="2015-08-12 11:40:06"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceLogDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceLogDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceLogDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceLogDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="MaintenanceItemDAC.cs">
-						<LastModified Value="2015-08-12 11:39:59"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceItemDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceItemDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceItemDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MaintenanceItemDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="MachineProfileDAC.cs">
-						<LastModified Value="2015-08-12 11:39:53"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineProfileDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineProfileDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineProfileDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineProfileDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="MachineParameterDAC.cs">
-						<LastModified Value="2015-08-12 11:39:47"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineParameterDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineParameterDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineParameterDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineParameterDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="MachineDefinitionDAC.cs">
-						<LastModified Value="2015-08-12 11:39:41"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineDefinitionDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineDefinitionDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineDefinitionDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\MachineDefinitionDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="JobNoteDAC.cs">
-						<LastModified Value="2015-08-12 11:39:31"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobNoteDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobNoteDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobNoteDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobNoteDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="JobDAC.cs">
-						<LastModified Value="2015-08-12 11:39:26"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="JobConfirmationDAC.cs">
-						<LastModified Value="2015-08-12 11:39:20"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobConfirmationDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobConfirmationDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobConfirmationDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobConfirmationDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="JobCompletionDAC.cs">
-						<LastModified Value="2015-08-12 11:39:12"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobCompletionDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobCompletionDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobCompletionDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\JobCompletionDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="IgnorableMessageDAC.cs">
-						<LastModified Value="2015-08-12 11:39:06"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\IgnorableMessageDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\IgnorableMessageDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\IgnorableMessageDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\IgnorableMessageDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="GeneralInformationDAC.cs">
-						<LastModified Value="2015-08-12 11:38:55"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\GeneralInformationDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\GeneralInformationDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\GeneralInformationDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\GeneralInformationDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="CalibrationDAC.cs">
-						<LastModified Value="2015-08-12 11:38:17"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\CalibrationDAC.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\CalibrationDAC.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\CalibrationDAC.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\DataAccessClasses\CalibrationDAC.cs"/>
-						</Specs>
-						<State>
-							<InsigIgnored Value="True"/>
-						</State>
-					</TTextMergeSession>
-					<TTextMergeSession Value="ParameterCollectionThalmann.cs">
-						<LastModified Value="2015-08-12 11:36:08"/>
-						<Specs>
-							<Left Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.LOCAL.1620.cs"/>
-							<Right Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.REMOTE.1620.cs"/>
-							<Center Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs.BASE.1620.cs"/>
-							<Output Value="c:\Users\jbuedel\Projects\Repos\AMS-GIT\Pathfinder.v3.X\AMS.Pathfinder.Data\Collections\Parameters\ParameterCollectionThalmann.cs"/>
-						</Specs>
-					</TTextMergeSession>
 				</Items>
 			</TSessionFolder>
 			<TDirCompareSession>
 				<Filters>
-					<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\"/>
+					<NameFilter Value="-.suo;-*sln.ide\;-Bin\;-Obj\;-.vs\;-.git\;-.tmp\"/>
 				</Filters>
 				<Rules>
 					<ExpandAllOnLoad Value="True"/>
 					<ExpandDiffsOnLoad Value="True"/>
 					<UseContentComparison Value="True"/>
 				</Rules>
+				<State>
+					<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+				</State>
 			</TDirCompareSession>
+			<TTextCompareSession>
+				<State>
+					<InsigIgnored Value="True"/>
+				</State>
+			</TTextCompareSession>
 			<TTextMergeSession>
 				<State>
 					<InsigIgnored Value="True"/>
