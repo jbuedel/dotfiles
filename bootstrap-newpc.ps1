@@ -17,19 +17,12 @@ cinst beyondcompare
 cinst notepadplusplus
 cinst windirstat
 cinst itunes
-cinst conemu
-cinst EthanBrown.ConEmuConfig
-cinst hipchat
 
 cinst linqpad4
+cinst linqpad5
 cinst sysinternals
 cinst dropbox
 cinst paint.net
-
-cinst dotpeek
-cinst resharper
-cinst dotcover
-cinst dotpeek
 
 # TODO: Autohotkey needs to reference my custom script, currently in DropBox.
 cinst autohotkey
