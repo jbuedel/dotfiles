@@ -24,8 +24,8 @@ if(!(test-path ~\.ssh\id_rsa)){
 	write-host "ssh key file not found.  creating one."
 	$keyfile = (Convert-Path ~\.ssh\) + "id_rsa"
 	
-	& 'C:\Program Files (x86)\Git\bin\ssh-keygen.exe' -t rsa -C "jbuedel@gmail.com" -f $keyfile
-	& 'C:\Program Files (x86)\Git\bin\ssh-add.exe' $keyfile
+	& 'C:\Program Files\Git\usr\bin\ssh-keygen.exe' -t rsa -C "jbuedel@gmail.com" -f $keyfile
+	& 'C:\Program Files\Git\usr\bin\ssh-add.exe' $keyfile
 	
 	write-host "Put this key file on Github. It's on the clipboard."
 	cat ~\.ssh\id_rsa.pub | clip
