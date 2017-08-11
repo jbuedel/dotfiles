@@ -3,6 +3,8 @@
 # Install chocolatey.
 (new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1') | iex
 
+choco feature enable -n=allowGlobalConfirmation
+
 # Install boxstarter, which gives a bunch of other commands.
 choco install boxstarter
 
