@@ -13,11 +13,7 @@ Set-Alias ssh-add 'C:\Program Files (x86)\Git\bin\ssh-add.exe'
 Set-Alias ssh 'C:\Program Files (x86)\Git\bin\ssh.exe'
 
 Set-Alias -name notepad++ 'C:\Program Files (x86)\Notepad++\notepad++.exe'
-Set-Alias hg 'C:\Program Files\Mercurial\hg.exe'
-Set-Alias rubymine "C:\Program Files (x86)\JetBrains\RubyMine 4.0\bin\rubymine.exe"
 Set-Alias linqpad 'C:\Program Files (x86)\LINQPad4\LINQPad.exe'
-
-Set-Alias gitex 'C:\Program Files (x86)\GitExtensions\gitex.cmd'
 
 
 
@@ -29,27 +25,9 @@ Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
 . ".\Start-RDP.ps1"
 
-# Set up a simple prompt, adding the git prompt parts inside git repos
-function prompt {
-    $realLASTEXITCODE = $LASTEXITCODE
 
-    # Reset color, which can be messed up by Enable-GitColors
-    $Host.UI.RawUI.ForegroundColor = $GitPromptSettings.DefaultForegroundColor
-
-    Write-Host (foo) -nonewline
-    
-	# This method comes from posh-git and/or posh-hg.
-	Write-VcsStatus    
-	
-	# This line depends on posh-git and posh-josh.
-	$Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
-	
-    $LASTEXITCODE = $realLASTEXITCODE
-    return ">"
-}
-
-Enable-GitColors
-Start-SshAgent -Quiet
+#Enable-GitColors
+#start-ssh-Agent -Quiet
 $global:GitTabSettings.AllCommands = $false
 if((git config --global core.preloadindex) -ne 'true') { git config --global core.preloadindex true }
 
@@ -57,24 +35,12 @@ Pop-Location
 
 
 # put me in my current project directory
-cd ~\Projects\Olympus
-
-# Ungit checks if it's already running and kills itself. No need to check for that here.
-#write-host "Launching ungit on Olympus"
-#start-job -ScriptBlock { pushd ~\Projects\Olympus ; ungit }
+# TODO: Put me in the last directory I was in.
+cd ~\Projects\
 
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', 'VS2012', or 'vs2013' command to do this."
 
-
-function foo {
-	if($pwd.ProviderPath.StartsWith($home)) {
-		return '~' + $pwd.ProviderPath.Substring($home.Length)
-	}
-	else {
-		return $pwd
-	}
-}
 
 
 <#
