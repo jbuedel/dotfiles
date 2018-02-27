@@ -34,7 +34,7 @@ set smartcase " If you type a capital letter, be case sensitive "
 " Highlight the current line.
 set cursorline
 " The yellow highlight obscures syntax highlighting.
-"hi CursorLine term=none cterm=none ctermbg=yellow guibg=yellow
+hi CursorLine term=none cterm=none ctermbg=none guibg=yellow
 
 " Remap jk to esc for faster insert mode exiting.
 inoremap jk <esc>
@@ -44,6 +44,9 @@ inoremap jk <esc>
 
 syntax enable
 filetype plugin indent on
+
+" Treat .config files as xml - unfortunately it is not working
+au BufNewFile, BufRead *.config set filetype=xml
 
 set shell=powershell
 set shellcmdflag=-command

@@ -2,8 +2,11 @@ set-alias git "${env:ProgramFiles}\Git\cmd\git.exe"
 set-alias bc "${env:ProgramFiles(x86)}\Beyond Compare 4\BComp.exe"
 
 Import-Module posh-git
+$GitPromptSettings.DefaultPromptAbbreviateHomeDirectory = $true
+
 Import-Module posh-josh -DisableNameChecking
 Import-Module project-commands
+
 Import-Module psreadline
 
 Set-Alias -name favorite-text-editor notepad++
@@ -17,35 +20,13 @@ Set-Alias ssh "${env:ProgramFiles}\Git\usr\bin\ssh.exe"
 Set-Alias -name notepad++ "${env:ProgramFiles(x86)}\notepad++\notepad++.exe"
 set-Alias linqpad "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
 
-Set-Alias st "${env:ProgramFiles(x86)}\Atlassian\SourceTree\SourceTree.exe"
+Set-Alias st "${env:LOCALAPPDATA}\SourceTree\SourceTree.exe"
 Set-Alias 7z "${env:ProgramFiles}\7-Zip\7z.exe"
-
-# Add stuff to path (what's better, adding to path or creating an alias?)
-# vim & gvim
-$env:Path += ";${env:ProgramFiles(x86)}\vim\bin;"
 
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
 . ".\Start-RDP.ps1"
 
-# Set up a simple prompt, adding the git prompt parts inside git repos
-function prompt {
-    $realLASTEXITCODE = $LASTEXITCODE
-
-    # Reset color, which can be messed up by Enable-GitColors
-    $Host.UI.RawUI.ForegroundColor = $GitPromptSettings.DefaultForegroundColor
-
-    Write-Host (foo) -nonewline
-    
-    # This method comes from posh-git and/or posh-hg.
-    Write-VcsStatus    
-    
-    # This line depends on posh-git and posh-josh.
-    $Host.UI.RawUI.WindowTitle = $Global:GitStatus.Branch + " " + ((Get-LocalOrParentPath .git) | split-path)
-	
-    $LASTEXITCODE = $realLASTEXITCODE
-    return ">"
-}
 
 # TODO: Switch to this https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 Start-SshAgent -Quiet
@@ -55,11 +36,82 @@ $global:GitPromptSettings.EnableStashStatus = $true
 Pop-Location
 
 
-# put me in my current project directory
-cd ~\Projects\
+# put me in my project directory
+cd ~\Projects\ 
 
 # Use vim bindings
 Set-PSReadlineOption -EditMode Vi
+Set-PSReadlineOption -HistorySearchCursorMovesToEnd
+
+
+######3
+## Sadly, this doesn't work inside Hyper. Only in standard powershell consoles. (I'm thinking hyper doesn't let the ctrL+ cmds filter through.)
+######
+#
+# Ctrl+Shift+j then type a key to mark the current directory.
+# Ctrj+j then the same key will change back to that directory without
+# needing to type cd and won't change the command line.
+
+#
+$global:PSReadlineMarks = @{}
+
+Set-PSReadlineKeyHandler -Key Ctrl+Shift+j `
+                         -BriefDescription MarkDirectory `
+                         -LongDescription "Mark the current directory" `
+                         -ScriptBlock {
+    param($key, $arg)
+
+    write-host "in there"
+
+    $key = [Console]::ReadKey($true)
+    $global:PSReadlineMarks[$key.KeyChar] = $pwd
+}
+
+Set-PSReadlineKeyHandler -Key Ctrl+j `
+                         -BriefDescription JumpDirectory `
+                         -LongDescription "Goto the marked directory" `
+                         -ScriptBlock {
+    param($key, $arg)
+
+    $key = [Console]::ReadKey()
+    $dir = $global:PSReadlineMarks[$key.KeyChar]
+    if ($dir)
+    {
+        cd $dir
+        [Microsoft.PowerShell.PSConsoleReadLine]::InvokePrompt()
+    }
+}
+
+Set-PSReadlineKeyHandler -Key Alt+j `
+                         -BriefDescription ShowDirectoryMarks `
+                         -LongDescription "Show the currently marked directories" `
+                         -ScriptBlock {
+    param($key, $arg)
+
+    $global:PSReadlineMarks.GetEnumerator() | % {
+        [PSCustomObject]@{Key = $_.Key; Dir = $_.Value} } |
+        Format-Table -AutoSize | Out-Host
+
+    [Microsoft.PowerShell.PSConsoleReadLine]::InvokePrompt()
+}
+
+Set-PSReadlineOption -CommandValidationHandler {
+    param([CommandAst]$CommandAst)
+
+    switch ($CommandAst.GetCommandName())
+    {
+        'git' {
+            $gitCmd = $CommandAst.CommandElements[1].Extent
+            switch ($gitCmd.Text)
+            {
+                'cmt' {
+                    [Microsoft.PowerShell.PSConsoleReadLine]::Replace(
+                        $gitCmd.StartOffset, $gitCmd.EndOffset - $gitCmd.StartOffset, 'commit')
+                }
+            }
+        }
+    }
+}
 
 "Your custom settings are almost complete, my overlord."
 "You need to add Visual Studio tools to your environment.  Issue either a 'vs2005', 'vs2008', 'vs2010', 'VS2012', or 'vs2013' command to do this."

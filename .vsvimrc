@@ -37,5 +37,9 @@ map <Leader><W> :vsc ReSharper.ReSharper_ShrinkSelection<CR>
 " Highlight all matches in a file when searching
 set hlsearch
 
+set incsearch " Preview as you type
+set ignorecase " Don't be case sensitive "
+set smartcase " If you type a capital letter, be case sensitive"
+
 " Use jk instead of Esc
 inoremap jk <Esc>
