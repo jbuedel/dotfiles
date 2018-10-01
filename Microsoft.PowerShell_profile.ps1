@@ -139,7 +139,7 @@ function foo {
      Launches an rdp session to www.fpweb.net.
 #>
 function rdp {
-    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper","ams-build-01.amscorp.net", "ams-tfs-01", "test-eclipse-02", "demo.amscontrols.com")][string]$server)
+    param([ValidateSet("jbuedel1-pc","buildagent1","dev.fpweb.net","ampdev.net","www1","www2", "mercury.fpweb.net","orchestrator","tickets.fpweb.net","vmm","lansweeper","ams-build-01.amscorp.net", "ams-tfs-01", "test-eclipse-02.amscorp.net", "demo.amscontrols.com", "pro-beta.amscontrols.com")][string]$server)
 
     $the_server = $server # $server can only be one of set values.
 
@@ -151,6 +151,7 @@ function rdp {
     if($server -eq "vmm") { $the_server = "172.27.10.10" }
     if($server -eq "lansweeper") { $the_server = "172.27.10.12" }
     if($server -eq "demo.amscontrols.com") { $the_server = "demo.amscontrols.com:3389" }
+    if($server -eq "pro-beta.amscontrols.com") { $the_server = "pro-beta.amscontrols.com" }
 
     Start-RDP -Server $the_server -Fullscreen
 }
