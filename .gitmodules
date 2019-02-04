@@ -4,6 +4,3 @@
 [submodule "Modules/project-commands"]
 	path = Modules/project-commands
 	url = git@github.com:jbuedel/project-commands
-[submodule "Modules/posh-git"]
-	path = Modules/posh-git
-	url = git@github.com:jbuedel/posh-git

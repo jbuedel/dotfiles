@@ -12,7 +12,7 @@ if(-not (get-command chocolatey)) {
   iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
-cinst msysgit
+choco install git
 git config --global user.name "Josh Buedel"
 git config --global user.email "jbuedel@gmail.com"
 # Stop creating .orig files on merge.
@@ -40,8 +40,5 @@ git checkout work-desktop
 # Actually fills out the submodules (does not happened automatically for some reason)
 git submodule update --init
 
-# Install PsWatch
-iex ((new-object net.webclient).DownloadString("http://bit.ly/Install-PsWatch"))
-
-(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
 install-module PSReadline
+install-module posh-git -AllowClobber
