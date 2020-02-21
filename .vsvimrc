@@ -43,3 +43,5 @@ set smartcase " If you type a capital letter, be case sensitive"
 
 " Use jk instead of Esc
 inoremap jk <Esc>
+
+autocmd InsertLeave * write

@@ -1,21 +1,13 @@
 set-alias git "${env:ProgramFiles}\Git\cmd\git.exe"
 set-alias bc "${env:ProgramFiles(x86)}\Beyond Compare 4\BComp.exe"
 
-#Import-Module posh-git
+Import-Module posh-git
 #$GitPromptSettings.DefaultPromptAbbreviateHomeDirectory = $true
-
-Import-Module posh-josh -DisableNameChecking
-Import-Module project-commands
 
 Import-Module psreadline
 
 Set-Alias -name favorite-text-editor notepad++
 Set-Alias -name npp open-text
-
-# I think there is a better way to get to ssh stuff. An environment var, or maybe Pageant.
-Set-Alias ssh-agent "${env:ProgramFiles}\Git\usr\bin\ssh-agent.exe"
-Set-Alias ssh-add "${env:ProgramFiles}\Git\usr\bin\ssh-add.exe"
-Set-Alias ssh "${env:ProgramFiles}\Git\usr\bin\ssh.exe"
 
 Set-Alias -name notepad++ "${env:ProgramFiles(x86)}\notepad++\notepad++.exe"
 set-Alias linqpad "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
@@ -29,7 +21,6 @@ Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
 
 # TODO: Switch to this https://github.com/Microsoft/Git-Credential-Manager-for-Windows
-Start-SshAgent -Quiet
 $global:GitTabSettings.AllCommands = $false
 $global:GitPromptSettings.EnableStashStatus = $true
 
